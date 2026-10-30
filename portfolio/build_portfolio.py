@@ -81,7 +81,8 @@ def img(path, max_w, max_h=None):
 def kpi_row(items, st):
     cells = [[[P(v, st["kpi"])], [P(l, st["kpil"])]] for v, l in items]  # each inner table: 2 rows x 1 col
     t = Table([[Table(c, colWidths=[(CONTENT_WIDTH / len(items)) - 4 * mm]) for c in cells]], colWidths=[CONTENT_WIDTH / len(items)] * len(items))
-    t.setStyle(TableStyle([("BOX", (0, 0), (-1, -1), 0.3, colors.HexColor("#d0d0d0")), ("INNERGRID", (0, 0), (-1, -1), 0.3, colors.HexColor("#d0d0d0")), ("TOPPADDING", (0, 0), (-1, -1), 4), ("BOTTOMPADDING", (0, 0), (-1, -1), 4)]))
+    t.setStyle(TableStyle([("BOX", (0, 0), (-1, -1), 0.3, colors.HexColor("#d0d0d0")), ("INNERGRID", (0, 0), (-1, -1), 0.3, colors.HexColor("#d0d0d0")), ("TOPPADDING", (0, 0), (-1, -1), 4), ("BOTTOMPADDING", (0, 0), (-1, -1), 4),
+                           ("VALIGN", (0, 0), (-1, -1), "TOP")]))  # numbers stay on one line even when a caption wraps
     return t
 
 
@@ -102,7 +103,8 @@ def build_front(summary: dict[str, Any], cycle: dict[str, Any] | None) -> None:
     st = styles()
     bm = {r["model"]: r for r in summary["report_by_model"]}
     wm = {r["model"]: r for r in summary["report_by_model_world_totals"]}
-    sel, nav = bm["selected"], bm["seasonal_naive"]
+    sel, nav = bm["ensemble"], bm["seasonal_naive"]  # the swap policy kept the ensemble for every series, so "selected" == "ensemble"
+    n_series = summary["panel"]["series"]
     rep = summary["origins"]["report"]
     doc = SimpleDocTemplate(str(FRONT), pagesize=A4, rightMargin=12 * mm, leftMargin=12 * mm, topMargin=12 * mm, bottomMargin=14 * mm)
     s: list[Flowable] = []
@@ -141,21 +143,22 @@ def build_front(summary: dict[str, Any], cycle: dict[str, Any] | None) -> None:
           P(f"출하 대리변수 = 한국의 ABS(HS 3903.30)·PC(HS 3907.40) 월별 수출량(UN Comtrade/관세청), 고객군 = 수출 대상국(상위 {summary['panel']['top_n_partners']}개국 + 기타). "
             f"패널 {summary['panel']['series']}개 시계열, {summary['panel']['first_month'][:7]}~{summary['panel']['last_month'][:7]}. 외부 변수: {', '.join(summary['exog'])}.", st["meta"]), Spacer(1, 3 * mm)]
     impr = (1 - sel["wape"] / nav["wape"]) * 100
-    s.append(kpi_row([(f"{sel['wape']*100:.1f}%", "선택 모델 WAPE (전체 셀, h=1~6)"), (f"{nav['wape']*100:.1f}%", "계절 naive WAPE (기준선)"),
-                      (f"{impr:.0f}%", "naive 대비 오차 감소"), (f"{wm['selected']['wape']*100:.1f}%", f"월드 총량 WAPE (naive {wm['seasonal_naive']['wape']*100:.1f}%)"),
-                      (f"{sel['bias']*100:+.1f}%", "선택 모델 bias")], st))
-    s += [Spacer(1, 2 * mm), P(f"보고 창: {rep[0][:7]}~{rep[-1][:7]} 12개 기준월(선택 창 12개월에서 계층별 모델을 고른 뒤, 보고 창에서만 채점해 선택 편향 제거). 지표 정의: WAPE는 오차 절댓값의 합을 실적 절댓값의 합으로 나눈 값, bias는 (예측-실적)의 합을 실적 절댓값의 합으로 나눈 값.", st["small"]), Spacer(1, 3 * mm)]
+    s.append(kpi_row([(f"{sel['wape']*100:.1f}%", "앙상블 WAPE (전체 셀, h=1~6)"), (f"{nav['wape']*100:.1f}%", "계절 naive WAPE (기준선)"),
+                      (f"{impr:.0f}%", "naive 대비 오차 감소"), (f"{wm['ensemble']['wape']*100:.1f}%", f"월드 총량 WAPE (naive {wm['seasonal_naive']['wape']*100:.1f}%)"),
+                      (f"{sel['bias']*100:+.1f}%", "앙상블 bias (양수 = 과대예측)")], st))
+    s += [Spacer(1, 2 * mm), P(f"보고 창: {rep[0][:7]}~{rep[-1][:7]} 12개 기준월. 운영 모델은 ETS+LightGBM+Chronos 앙상블이며, 선택 창 12개월에서 단일 모델이 앙상블보다 25% 이상 나은 시계열만 교체하는 정책을 적용한 결과 {n_series}개 시계열 모두 앙상블을 유지했습니다(보고 창에서만 채점해 선택 편향 제거). "
+                                "지표 정의: WAPE는 오차 절댓값의 합을 실적 절댓값의 합으로 나눈 값, bias는 (예측-실적)의 합을 실적 절댓값의 합으로 나눈 값.", st["small"]), Spacer(1, 3 * mm)]
     s.append(Table([[img(ART / "charts/wape_by_model.png", 91 * mm), img(ART / "charts/wape_by_horizon.png", 91 * mm)]], colWidths=[93 * mm, 93 * mm]))
     s.append(Spacer(1, 2 * mm))
     s.append(Table([[img(ART / "charts/series_ABS_WLD.png", 91 * mm), img(ART / "charts/series_PC_WLD.png", 91 * mm)]], colWidths=[93 * mm, 93 * mm]))
     s += [Spacer(1, 3 * mm), P("모델별 결과 (보고 창, 전체 셀)", st["section"]), Spacer(1, 1.5 * mm)]
     s.append(grid([["모델", "WAPE", "bias", "MASE", "비고"]] + [[r["model"], f"{r['wape']*100:.1f}%", f"{r['bias']*100:+.1f}%", f"{r.get('mase', float('nan')):.2f}",
-                   {"seasonal_naive": "12개월 전 값", "ets": "AutoETS(statsforecast)", "lgbm": "LightGBM 글로벌·직접 다중지평·외생변수", "chronos": "Chronos-Bolt 제로샷", "ensemble": "ETS+LGBM+Chronos 평균", "selected": "계층별 선택(선택 창 기준)"}.get(r["model"], "")]
-                   for r in summary["report_by_model"]], [28 * mm, 20 * mm, 20 * mm, 20 * mm, 98 * mm], st))
+                   {"seasonal_naive": "12개월 전 값", "ets": "AutoETS(statsforecast)", "lgbm": "LightGBM 글로벌·직접 다중지평·외생변수", "chronos": "Chronos-Bolt 제로샷", "ensemble": "ETS+LGBM+Chronos 평균 (운영 모델)"}.get(r["model"], "")]
+                   for r in summary["report_by_model"] if r["model"] != "selected"], [28 * mm, 20 * mm, 20 * mm, 20 * mm, 98 * mm], st))
     bs = summary["report_by_series"]
-    sel_rows = {r["unique_id"]: r for r in bs if r["model"] == "selected"}
+    sel_rows = {r["unique_id"]: r for r in bs if r["model"] == "ensemble"}
     nav_rows = {r["unique_id"]: r for r in bs if r["model"] == "seasonal_naive"}
-    series_tbl = [["시계열", "선택 모델 WAPE", "naive WAPE", "개선", "bias"]]
+    series_tbl = [["시계열", "앙상블 WAPE", "naive WAPE", "개선", "bias"]]
     for uid in summary["panel"]["labels"]:
         if uid in sel_rows and uid in nav_rows:
             a, b = sel_rows[uid]["wape"], nav_rows[uid]["wape"]
@@ -165,7 +168,7 @@ def build_front(summary: dict[str, Any], cycle: dict[str, Any] | None) -> None:
     left, right = series_tbl[:half + 1], [series_tbl[0]] + series_tbl[half + 1:]
     w = [38 * mm, 16 * mm, 14 * mm, 11 * mm, 12 * mm]
     s.append(Table([[grid(left, w, st), grid(right, w, st)]], colWidths=[93 * mm, 93 * mm]))
-    s += [Spacer(1, 3 * mm), P("선택된 모델 분포: " + " · ".join(f"{k} {v}" for k, v in summary["best_model_counts"].items()) + ". 모든 코드·데이터 스크립트는 공개 저장소 github.com/Momentum96/lotte-ax-demand-agent 에서 재현 가능하며(uv 가상환경, 고정 시드), 본선에서는 Comtrade 로더를 내부 출하 데이터 로더로 교체합니다.", st["small"])]
+    s += [Spacer(1, 3 * mm), P("선택 정책 결과: " + " · ".join(f"{k} {v}개 시계열" for k, v in summary["best_model_counts"].items()) + " (단일 모델이 앙상블을 25% 이상 앞선 시계열 없음). 모든 코드·데이터 스크립트는 공개 저장소 github.com/Momentum96/lotte-ax-demand-agent 에서 재현 가능하며(uv 가상환경, 고정 시드), 본선에서는 Comtrade 로더를 내부 출하 데이터 로더로 교체합니다.", st["small"])]
     s.append(PageBreak())
     # ---- page 3: 에이전트
     s += [P("AI 에이전트 프로토타입 — 월간 사이클을 도구 호출로 운영", st["title"]), Spacer(1, 1.5 * mm),
