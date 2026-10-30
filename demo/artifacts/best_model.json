@@ -1,0 +1,18 @@
+{
+  "ABS|CHN": "ensemble",
+  "ABS|IND": "ensemble",
+  "ABS|MEX": "ensemble",
+  "ABS|OTH": "ensemble",
+  "ABS|TUR": "ensemble",
+  "ABS|USA": "ensemble",
+  "ABS|VNM": "ensemble",
+  "ABS|WLD": "ensemble",
+  "PC|CHN": "ensemble",
+  "PC|IND": "ensemble",
+  "PC|ITA": "ensemble",
+  "PC|MEX": "ensemble",
+  "PC|OTH": "ensemble",
+  "PC|USA": "ensemble",
+  "PC|VNM": "ensemble",
+  "PC|WLD": "ensemble"
+}

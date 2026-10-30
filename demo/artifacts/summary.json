@@ -1,0 +1,563 @@
+{
+  "panel": {
+    "series": 16,
+    "first_month": "2014-01-01",
+    "last_month": "2025-12-01",
+    "top_n_partners": 6,
+    "labels": {
+      "ABS|CHN": "ABS -> China",
+      "ABS|TUR": "ABS -> Türkiye",
+      "ABS|USA": "ABS -> USA",
+      "ABS|IND": "ABS -> India",
+      "ABS|MEX": "ABS -> Mexico",
+      "ABS|VNM": "ABS -> Viet Nam",
+      "ABS|OTH": "ABS -> Other countries",
+      "ABS|WLD": "ABS -> World total",
+      "PC|CHN": "PC -> China",
+      "PC|IND": "PC -> India",
+      "PC|MEX": "PC -> Mexico",
+      "PC|VNM": "PC -> Viet Nam",
+      "PC|USA": "PC -> USA",
+      "PC|ITA": "PC -> Italy",
+      "PC|OTH": "PC -> Other countries",
+      "PC|WLD": "PC -> World total"
+    }
+  },
+  "exog": [
+    "brent_usd",
+    "krw_per_usd",
+    "kosis_C",
+    "kosis_C20",
+    "kosis_C22",
+    "kosis_C26",
+    "kosis_C28",
+    "kosis_C30",
+    "auto_production"
+  ],
+  "origins": {
+    "select": [
+      "2023-12-01",
+      "2024-01-01",
+      "2024-02-01",
+      "2024-03-01",
+      "2024-04-01",
+      "2024-05-01",
+      "2024-06-01",
+      "2024-07-01",
+      "2024-08-01",
+      "2024-09-01",
+      "2024-10-01",
+      "2024-11-01"
+    ],
+    "report": [
+      "2024-12-01",
+      "2025-01-01",
+      "2025-02-01",
+      "2025-03-01",
+      "2025-04-01",
+      "2025-05-01",
+      "2025-06-01",
+      "2025-07-01",
+      "2025-08-01",
+      "2025-09-01",
+      "2025-10-01",
+      "2025-11-01"
+    ]
+  },
+  "best_model_counts": {
+    "ensemble": 16
+  },
+  "report_by_model": [
+    {
+      "model": "ets",
+      "n": 912,
+      "wape": 0.138,
+      "bias": 0.0681,
+      "mase": 0.853
+    },
+    {
+      "model": "ensemble",
+      "n": 912,
+      "wape": 0.141,
+      "bias": 0.0806,
+      "mase": 0.8341
+    },
+    {
+      "model": "selected",
+      "n": 912,
+      "wape": 0.141,
+      "bias": 0.0806,
+      "mase": 0.8341
+    },
+    {
+      "model": "chronos",
+      "n": 912,
+      "wape": 0.1487,
+      "bias": 0.0832,
+      "mase": 0.8936
+    },
+    {
+      "model": "lgbm",
+      "n": 912,
+      "wape": 0.1529,
+      "bias": 0.0905,
+      "mase": 0.8857
+    },
+    {
+      "model": "seasonal_naive",
+      "n": 912,
+      "wape": 0.172,
+      "bias": 0.1047,
+      "mase": 1.0029
+    }
+  ],
+  "report_by_model_world_totals": [
+    {
+      "model": "ets",
+      "n": 114,
+      "wape": 0.1154,
+      "bias": 0.0681,
+      "mase": 0.9284
+    },
+    {
+      "model": "ensemble",
+      "n": 114,
+      "wape": 0.1242,
+      "bias": 0.0806,
+      "mase": 0.9907
+    },
+    {
+      "model": "selected",
+      "n": 114,
+      "wape": 0.1242,
+      "bias": 0.0806,
+      "mase": 0.9907
+    },
+    {
+      "model": "chronos",
+      "n": 114,
+      "wape": 0.1292,
+      "bias": 0.0832,
+      "mase": 1.0247
+    },
+    {
+      "model": "lgbm",
+      "n": 114,
+      "wape": 0.1379,
+      "bias": 0.0905,
+      "mase": 1.0914
+    },
+    {
+      "model": "seasonal_naive",
+      "n": 114,
+      "wape": 0.149,
+      "bias": 0.1047,
+      "mase": 1.222
+    }
+  ],
+  "report_by_h": [
+    {
+      "model": "ensemble",
+      "h": 2,
+      "n": 176,
+      "wape": 0.1231,
+      "bias": 0.0432,
+      "mase": 0.8085
+    },
+    {
+      "model": "selected",
+      "h": 2,
+      "n": 176,
+      "wape": 0.1231,
+      "bias": 0.0432,
+      "mase": 0.8085
+    },
+    {
+      "model": "ensemble",
+      "h": 1,
+      "n": 192,
+      "wape": 0.1241,
+      "bias": 0.033,
+      "mase": 0.7958
+    },
+    {
+      "model": "selected",
+      "h": 1,
+      "n": 192,
+      "wape": 0.1241,
+      "bias": 0.033,
+      "mase": 0.7958
+    },
+    {
+      "model": "ensemble",
+      "h": 3,
+      "n": 160,
+      "wape": 0.1365,
+      "bias": 0.0807,
+      "mase": 0.8006
+    },
+    {
+      "model": "selected",
+      "h": 3,
+      "n": 160,
+      "wape": 0.1365,
+      "bias": 0.0807,
+      "mase": 0.8006
+    },
+    {
+      "model": "ensemble",
+      "h": 4,
+      "n": 144,
+      "wape": 0.1488,
+      "bias": 0.0987,
+      "mase": 0.8495
+    },
+    {
+      "model": "selected",
+      "h": 4,
+      "n": 144,
+      "wape": 0.1488,
+      "bias": 0.0987,
+      "mase": 0.8495
+    },
+    {
+      "model": "ensemble",
+      "h": 5,
+      "n": 128,
+      "wape": 0.1567,
+      "bias": 0.1324,
+      "mase": 0.8594
+    },
+    {
+      "model": "selected",
+      "h": 5,
+      "n": 128,
+      "wape": 0.1567,
+      "bias": 0.1324,
+      "mase": 0.8594
+    },
+    {
+      "model": "seasonal_naive",
+      "h": 1,
+      "n": 192,
+      "wape": 0.1627,
+      "bias": 0.079,
+      "mase": 0.9793
+    },
+    {
+      "model": "seasonal_naive",
+      "h": 2,
+      "n": 176,
+      "wape": 0.1632,
+      "bias": 0.0741,
+      "mase": 0.9794
+    },
+    {
+      "model": "seasonal_naive",
+      "h": 3,
+      "n": 160,
+      "wape": 0.1682,
+      "bias": 0.096,
+      "mase": 0.988
+    },
+    {
+      "model": "seasonal_naive",
+      "h": 4,
+      "n": 144,
+      "wape": 0.1727,
+      "bias": 0.1233,
+      "mase": 1.0048
+    },
+    {
+      "model": "ensemble",
+      "h": 6,
+      "n": 112,
+      "wape": 0.1801,
+      "bias": 0.1469,
+      "mase": 0.9395
+    },
+    {
+      "model": "selected",
+      "h": 6,
+      "n": 112,
+      "wape": 0.1801,
+      "bias": 0.1469,
+      "mase": 0.9395
+    },
+    {
+      "model": "seasonal_naive",
+      "h": 5,
+      "n": 128,
+      "wape": 0.1872,
+      "bias": 0.1462,
+      "mase": 1.0459
+    },
+    {
+      "model": "seasonal_naive",
+      "h": 6,
+      "n": 112,
+      "wape": 0.1915,
+      "bias": 0.1444,
+      "mase": 1.0497
+    }
+  ],
+  "report_by_series": [
+    {
+      "unique_id": "PC|CHN",
+      "model": "selected",
+      "n": 57,
+      "wape": 0.0817,
+      "bias": 0.0076,
+      "mase": 0.2759
+    },
+    {
+      "unique_id": "ABS|VNM",
+      "model": "selected",
+      "n": 57,
+      "wape": 0.0898,
+      "bias": 0.0174,
+      "mase": 0.5643
+    },
+    {
+      "unique_id": "PC|CHN",
+      "model": "seasonal_naive",
+      "n": 57,
+      "wape": 0.1084,
+      "bias": 0.019,
+      "mase": 0.3662
+    },
+    {
+      "unique_id": "ABS|OTH",
+      "model": "selected",
+      "n": 57,
+      "wape": 0.1145,
+      "bias": 0.0739,
+      "mase": 0.7505
+    },
+    {
+      "unique_id": "ABS|WLD",
+      "model": "selected",
+      "n": 57,
+      "wape": 0.1185,
+      "bias": 0.075,
+      "mase": 0.8494
+    },
+    {
+      "unique_id": "ABS|VNM",
+      "model": "seasonal_naive",
+      "n": 57,
+      "wape": 0.1241,
+      "bias": 0.0274,
+      "mase": 0.7797
+    },
+    {
+      "unique_id": "ABS|OTH",
+      "model": "seasonal_naive",
+      "n": 57,
+      "wape": 0.1252,
+      "bias": 0.0856,
+      "mase": 0.8207
+    },
+    {
+      "unique_id": "ABS|TUR",
+      "model": "selected",
+      "n": 57,
+      "wape": 0.1281,
+      "bias": -0.0029,
+      "mase": 0.5294
+    },
+    {
+      "unique_id": "ABS|WLD",
+      "model": "seasonal_naive",
+      "n": 57,
+      "wape": 0.1317,
+      "bias": 0.0957,
+      "mase": 0.9434
+    },
+    {
+      "unique_id": "PC|WLD",
+      "model": "selected",
+      "n": 57,
+      "wape": 0.1334,
+      "bias": 0.0896,
+      "mase": 1.1321
+    },
+    {
+      "unique_id": "PC|VNM",
+      "model": "seasonal_naive",
+      "n": 57,
+      "wape": 0.1427,
+      "bias": 0.0553,
+      "mase": 0.4776
+    },
+    {
+      "unique_id": "ABS|MEX",
+      "model": "selected",
+      "n": 57,
+      "wape": 0.1463,
+      "bias": -0.0563,
+      "mase": 0.8689
+    },
+    {
+      "unique_id": "PC|IND",
+      "model": "selected",
+      "n": 57,
+      "wape": 0.1506,
+      "bias": 0.0539,
+      "mase": 0.808
+    },
+    {
+      "unique_id": "ABS|CHN",
+      "model": "selected",
+      "n": 57,
+      "wape": 0.1524,
+      "bias": 0.1323,
+      "mase": 0.3581
+    },
+    {
+      "unique_id": "ABS|TUR",
+      "model": "seasonal_naive",
+      "n": 57,
+      "wape": 0.1562,
+      "bias": -0.0557,
+      "mase": 0.6454
+    },
+    {
+      "unique_id": "ABS|USA",
+      "model": "selected",
+      "n": 57,
+      "wape": 0.1596,
+      "bias": 0.0867,
+      "mase": 0.8169
+    },
+    {
+      "unique_id": "PC|WLD",
+      "model": "seasonal_naive",
+      "n": 57,
+      "wape": 0.1768,
+      "bias": 0.1192,
+      "mase": 1.5007
+    },
+    {
+      "unique_id": "PC|IND",
+      "model": "seasonal_naive",
+      "n": 57,
+      "wape": 0.1901,
+      "bias": 0.0131,
+      "mase": 1.0197
+    },
+    {
+      "unique_id": "PC|VNM",
+      "model": "selected",
+      "n": 57,
+      "wape": 0.2078,
+      "bias": 0.1168,
+      "mase": 0.6955
+    },
+    {
+      "unique_id": "PC|USA",
+      "model": "seasonal_naive",
+      "n": 57,
+      "wape": 0.2227,
+      "bias": 0.1421,
+      "mase": 0.8894
+    },
+    {
+      "unique_id": "PC|USA",
+      "model": "selected",
+      "n": 57,
+      "wape": 0.2287,
+      "bias": 0.1409,
+      "mase": 0.9134
+    },
+    {
+      "unique_id": "ABS|MEX",
+      "model": "seasonal_naive",
+      "n": 57,
+      "wape": 0.2357,
+      "bias": -0.1184,
+      "mase": 1.4005
+    },
+    {
+      "unique_id": "PC|OTH",
+      "model": "selected",
+      "n": 57,
+      "wape": 0.2458,
+      "bias": 0.1211,
+      "mase": 1.4932
+    },
+    {
+      "unique_id": "ABS|IND",
+      "model": "seasonal_naive",
+      "n": 57,
+      "wape": 0.2574,
+      "bias": 0.1782,
+      "mase": 0.9231
+    },
+    {
+      "unique_id": "ABS|USA",
+      "model": "seasonal_naive",
+      "n": 57,
+      "wape": 0.2737,
+      "bias": 0.1871,
+      "mase": 1.4004
+    },
+    {
+      "unique_id": "PC|ITA",
+      "model": "selected",
+      "n": 57,
+      "wape": 0.2777,
+      "bias": 0.1322,
+      "mase": 1.2767
+    },
+    {
+      "unique_id": "ABS|CHN",
+      "model": "seasonal_naive",
+      "n": 57,
+      "wape": 0.2838,
+      "bias": 0.2715,
+      "mase": 0.6667
+    },
+    {
+      "unique_id": "PC|OTH",
+      "model": "seasonal_naive",
+      "n": 57,
+      "wape": 0.2855,
+      "bias": 0.202,
+      "mase": 1.7337
+    },
+    {
+      "unique_id": "PC|ITA",
+      "model": "seasonal_naive",
+      "n": 57,
+      "wape": 0.3172,
+      "bias": 0.1592,
+      "mase": 1.4586
+    },
+    {
+      "unique_id": "PC|MEX",
+      "model": "selected",
+      "n": 57,
+      "wape": 0.3301,
+      "bias": 0.3184,
+      "mase": 0.7877
+    },
+    {
+      "unique_id": "ABS|IND",
+      "model": "selected",
+      "n": 57,
+      "wape": 0.342,
+      "bias": 0.2647,
+      "mase": 1.2264
+    },
+    {
+      "unique_id": "PC|MEX",
+      "model": "seasonal_naive",
+      "n": 57,
+      "wape": 0.4274,
+      "bias": 0.4212,
+      "mase": 1.0199
+    }
+  ],
+  "runtime_sec": 0.5
+}
