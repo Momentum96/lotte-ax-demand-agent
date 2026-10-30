@@ -108,7 +108,7 @@ def build_front(summary: dict[str, Any], cycle: dict[str, Any] | None) -> None:
     s: list[Flowable] = []
     # ---- page 1: 해결방안 요약
     s += [P("롯데케미칼 [화학] 첨단소재 수요예측 AI 기획 — 예선 해결방안 요약", st["title"]), Spacer(1, 1.5 * mm),
-          P("LOTTE AX Challenge 2026 · 지원자 전건우 · 본 3쪽은 과제 전용 요약이며, 이어지는 포트폴리오와 부록(증빙)은 기존 자료입니다.", st["meta"]), Spacer(1, 4 * mm)]
+          P("LOTTE AX Challenge 2026 · 지원자 전건우 · 본 3쪽은 과제 전용 요약이고, 뒤에 프로젝트 포트폴리오와 수상 증빙이 이어집니다.", st["meta"]), Spacer(1, 4 * mm)]
     s += [P("1. 문제 정의 — 주문 예측이 아니라 End Customer 수요 예측", st["section"]), Spacer(1, 1.5 * mm)]
     s.append(labeled([
         ("현황", "첨단소재(ABS·PC)의 최종 수요처는 가전·TV·자동차·IT 완제품 제조사이지만 판매는 컴파운더·사출 협력사·유통사를 거치는 다단계 구조. 영업팀이 보는 것은 직접 고객의 PO이고, 최종 수요 변화는 1~2분기 늦게·증폭되어(bullwhip) 도착."),
@@ -144,7 +144,7 @@ def build_front(summary: dict[str, Any], cycle: dict[str, Any] | None) -> None:
     s.append(kpi_row([(f"{sel['wape']*100:.1f}%", "선택 모델 WAPE (전체 셀, h=1~6)"), (f"{nav['wape']*100:.1f}%", "계절 naive WAPE (기준선)"),
                       (f"{impr:.0f}%", "naive 대비 오차 감소"), (f"{wm['selected']['wape']*100:.1f}%", f"월드 총량 WAPE (naive {wm['seasonal_naive']['wape']*100:.1f}%)"),
                       (f"{sel['bias']*100:+.1f}%", "선택 모델 bias")], st))
-    s += [Spacer(1, 2 * mm), P(f"보고 창: {rep[0][:7]}~{rep[-1][:7]} 12개 기준월(선택 창 12개월에서 계층별 모델을 고른 뒤, 보고 창에서만 채점해 선택 편향 제거). 지표는 WAPE=Σ|오차|/Σ|실적|, bias=Σ(예측-실적)/Σ|실적|.", st["small"]), Spacer(1, 3 * mm)]
+    s += [Spacer(1, 2 * mm), P(f"보고 창: {rep[0][:7]}~{rep[-1][:7]} 12개 기준월(선택 창 12개월에서 계층별 모델을 고른 뒤, 보고 창에서만 채점해 선택 편향 제거). 지표 정의: WAPE는 오차 절댓값의 합을 실적 절댓값의 합으로 나눈 값, bias는 (예측-실적)의 합을 실적 절댓값의 합으로 나눈 값.", st["small"]), Spacer(1, 3 * mm)]
     s.append(Table([[img(ART / "charts/wape_by_model.png", 91 * mm), img(ART / "charts/wape_by_horizon.png", 91 * mm)]], colWidths=[93 * mm, 93 * mm]))
     s.append(Spacer(1, 2 * mm))
     s.append(Table([[img(ART / "charts/series_ABS_WLD.png", 91 * mm), img(ART / "charts/series_PC_WLD.png", 91 * mm)]], colWidths=[93 * mm, 93 * mm]))
@@ -190,7 +190,7 @@ def build_front(summary: dict[str, Any], cycle: dict[str, Any] | None) -> None:
                   [22 * mm, 42 * mm, 122 * mm], st))
     s += [Spacer(1, 3 * mm), P("본선 계획", st["section"]), Spacer(1, 1.5 * mm),
           P("① 내부 주문·출하·영업 FCST 스키마 매핑과 고객 마스터(최종 산업·OEM) 연결 ② grade×고객 계층으로 패널 재구성, 동일 백테스트로 정확도 재측정 ③ 영업 담당자 워크플로우(비교·설명·조정·확정) UI 고도화와 FVA 리포트 ④ 드리프트 감시·재학습 트리거·롤백 등 운영 안정화.", st["small"])]
-    doc.build(s, onFirstPage=page_number, onLaterPages=page_number)
+    doc.build(s)
 
 
 def build_appendix() -> None:
@@ -206,13 +206,36 @@ def build_appendix() -> None:
         imgs.append(next(tmp.glob(f"a{i}*.png")))
     imgs.append(AWARDS / "캡스톤 대상.jpg")
     s.append(Table([[img(p, 58 * mm, 120 * mm) for p in imgs]], colWidths=[62 * mm] * 3))
-    doc.build(s, onFirstPage=appendix_page_number, onLaterPages=appendix_page_number)
+    doc.build(s)
+
+
+FOOTER = "LOTTE AX Challenge 2026 · 롯데케미칼 첨단소재 수요예측 AI 기획 · 전건우"
+
+
+def _footer_overlay(page_no: int):
+    """One A4 overlay: white patch over any pre-existing page number, then a uniform footer."""
+    import io
+    from reportlab.pdfgen import canvas as rl_canvas
+    buf = io.BytesIO()
+    c = rl_canvas.Canvas(buf, pagesize=A4)
+    c.setFillColor(colors.white); c.setStrokeColor(colors.white)
+    c.rect(A4[0] - 40 * mm, 5 * mm, 32 * mm, 7 * mm, fill=1, stroke=0)   # covers old right-aligned numbers
+    c.rect(12 * mm, 5 * mm, 120 * mm, 7 * mm, fill=1, stroke=0)             # covers any old left footer text
+    c.setFont("Paperlogy", 7); c.setFillColor(colors.HexColor("#777777"))
+    c.drawString(14 * mm, 8 * mm, FOOTER)
+    c.drawRightString(A4[0] - 14 * mm, 8 * mm, str(page_no))
+    c.showPage(); c.save()
+    buf.seek(0)
+    return PdfReader(buf).pages[0]
 
 
 def merge() -> None:
     w = PdfWriter()
+    n = 0
     for path in (FRONT, EXISTING, APPX):
         for page in PdfReader(str(path)).pages:
+            n += 1
+            page.merge_page(_footer_overlay(n))
             w.add_page(page)
     with FINAL.open("wb") as f:
         w.write(f)
