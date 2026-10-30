@@ -1,0 +1,28 @@
+{
+  "korea_trade_abs_pc.csv": {
+    "status": "not obtained"
+  },
+  "korea_auto_production.csv": {
+    "status": "not obtained"
+  },
+  "kosis_production_index.csv": {
+    "status": "not obtained"
+  },
+  "brent_monthly.csv": {
+    "status": "obtained",
+    "rows": 177,
+    "first": "2012-01-01",
+    "last": "2026-09-01",
+    "missing_months_since_2012": []
+  },
+  "krw_usd_monthly.csv": {
+    "status": "obtained",
+    "rows": 177,
+    "first": "2012-01-01",
+    "last": "2026-09-01",
+    "missing_months_since_2012": []
+  },
+  "china_imports_abs_pc.csv": {
+    "status": "not obtained"
+  }
+}

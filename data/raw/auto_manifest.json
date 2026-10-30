@@ -1,0 +1,3947 @@
+{
+  "retrieved_at_utc": "2026-10-30T07:56:26.894985+00:00",
+  "listing_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c?searchCondition=4&searchKeyword=%EC%9E%90%EB%8F%99%EC%B0%A8&rowPageC=1000",
+  "sources": [
+    {
+      "published": "2026-10-19",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172302/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/40ba82763f444529004c8899c8c114d4",
+      "title": "1019(20조간)자동차과, 2026년 9월 자동차산업 동향.pdf",
+      "sha256": "6dc37e23638b75a53cbdc43ef75e65c6c5e173165e03b75f864143f417426bce",
+      "observations": [
+        [
+          "2025-09-01",
+          334289,
+          "production_table"
+        ],
+        [
+          "2026-08-01",
+          206036,
+          "production_table"
+        ],
+        [
+          "2026-09-01",
+          346618,
+          "production_table"
+        ],
+        [
+          "2025-09-01",
+          334289,
+          "production_table"
+        ],
+        [
+          "2026-08-01",
+          206036,
+          "production_table"
+        ],
+        [
+          "2026-09-01",
+          346618,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2026-09-17",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172213/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/6f4d1a30d904ac3b33fc155a6e2dffc4",
+      "title": "0917(18조간)자동차과, 2026년 8월 자동차산업 동향.pdf",
+      "sha256": "0bd49f16e4cb34d01dc60ffaea8cb5e01f9abc6d07880f207e5260d434d351f4",
+      "observations": [
+        [
+          "2025-08-01",
+          320942,
+          "production_table"
+        ],
+        [
+          "2026-07-01",
+          351973,
+          "production_table"
+        ],
+        [
+          "2026-08-01",
+          206064,
+          "production_table"
+        ],
+        [
+          "2025-08-01",
+          320942,
+          "production_table"
+        ],
+        [
+          "2026-07-01",
+          351973,
+          "production_table"
+        ],
+        [
+          "2026-08-01",
+          206064,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2026-08-13",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172105/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/d9b9f868556c249337b9e2602aa28e06",
+      "title": "0813(14조간)자동차과, 7월 자동차 수출 역대 최대…민관 원팀, 미래차 전환·상생협력에 한뜻.pdf",
+      "sha256": "b07046cf42075ac0f6f4e408aab8d60ca915a759065c646271eb3a4e1bbac415",
+      "observations": [
+        [
+          "2025-07-01",
+          316281,
+          "production_table"
+        ],
+        [
+          "2026-06-01",
+          394331,
+          "production_table"
+        ],
+        [
+          "2026-07-01",
+          352070,
+          "production_table"
+        ],
+        [
+          "2025-07-01",
+          316281,
+          "production_table"
+        ],
+        [
+          "2026-06-01",
+          394331,
+          "production_table"
+        ],
+        [
+          "2026-07-01",
+          352070,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2026-07-15",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172028/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/5f49721ec88d7a7a304d84c03968eee0",
+      "title": "0715(16조간)자동차과, 2026년 6월 자동차산업 동향.pdf",
+      "sha256": "e0cdbd130f2a10f1f16f656df114ff978d6ba05969b033d84bf68565c6dd977e",
+      "observations": [
+        [
+          "2025-06-01",
+          353230,
+          "production_table"
+        ],
+        [
+          "2026-05-01",
+          329533,
+          "production_table"
+        ],
+        [
+          "2026-06-01",
+          394210,
+          "production_table"
+        ],
+        [
+          "2025-06-01",
+          353230,
+          "production_table"
+        ],
+        [
+          "2026-05-01",
+          329533,
+          "production_table"
+        ],
+        [
+          "2026-06-01",
+          394210,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2026-06-30",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/171978/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/12d912ebdc0b7590243321117fa9d855",
+      "title": "0630(01조간)자동차과, 2025년 공공부문 전기.수소차 전환 실적 공개.pdf",
+      "sha256": "ec158944780a0e5c7f6ba212d8d3be5aa15adb6079657cf47c16e3c1f8297769",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2026-06-17",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/171937/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/2ddb2a77cc22d01e395c31221c2c164d",
+      "title": "0617(18조간)자동차과, 2026년 5월 자동차산업 동향.pdf",
+      "sha256": "cf1e39055eadf3a4dfe29cd1f50cbaf62b6cbe612f4956100b5f59950593db95",
+      "observations": [
+        [
+          "2025-05-01",
+          358969,
+          "production_table"
+        ],
+        [
+          "2026-04-01",
+          361923,
+          "production_table"
+        ],
+        [
+          "2026-05-01",
+          329559,
+          "production_table"
+        ],
+        [
+          "2025-05-01",
+          358969,
+          "production_table"
+        ],
+        [
+          "2026-04-01",
+          361923,
+          "production_table"
+        ],
+        [
+          "2026-05-01",
+          329559,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2026-05-20",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/171849/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/0e519e2702885a28f463c7b346cd9eff",
+      "title": "0520(21조간)자동차과, 2026년 4월 자동차산업 동향.pdf",
+      "sha256": "573827a125e5cdb3a5234a2a9aa92bb9b859b6bb124daa08c12b4016bb4452a9",
+      "observations": [
+        [
+          "2025-04-01",
+          385624,
+          "production_table"
+        ],
+        [
+          "2026-03-01",
+          386363,
+          "production_table"
+        ],
+        [
+          "2026-04-01",
+          361926,
+          "production_table"
+        ],
+        [
+          "2025-04-01",
+          385624,
+          "production_table"
+        ],
+        [
+          "2026-03-01",
+          386363,
+          "production_table"
+        ],
+        [
+          "2026-04-01",
+          361926,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2026-04-15",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/171730/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/ac20ea9aed348a5777c2712cd97f88fc",
+      "title": "0415(16조간)자동차과, 2026년 1분기 자동차산업 동향.pdf",
+      "sha256": "4aab5e2efb37eb092617a6a75c080b41f9d4606c40afb57b53f47cbe9b9dc5a0",
+      "observations": [
+        [
+          "2025-03-01",
+          370629,
+          "production_table"
+        ],
+        [
+          "2026-02-01",
+          278250,
+          "production_table"
+        ],
+        [
+          "2026-03-01",
+          387227,
+          "production_table"
+        ],
+        [
+          "2025-03-01",
+          370629,
+          "production_table"
+        ],
+        [
+          "2026-02-01",
+          278250,
+          "production_table"
+        ],
+        [
+          "2026-03-01",
+          387227,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2026-03-18",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/171605/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/5adfadab7771b2ae5fc51876e7d6c1fe",
+      "title": "0318(19조간)자동차과, 2026년 2월 자동차산업 동향.pdf",
+      "sha256": "70a73ec4df1d1a2ba176b9cf52cda86983998d1020aa23840b7ae8c377c70720",
+      "observations": [
+        [
+          "2025-02-01",
+          352061,
+          "production_table"
+        ],
+        [
+          "2026-01-01",
+          360504,
+          "production_table"
+        ],
+        [
+          "2026-02-01",
+          278248,
+          "production_table"
+        ],
+        [
+          "2025-02-01",
+          352061,
+          "production_table"
+        ],
+        [
+          "2026-01-01",
+          360504,
+          "production_table"
+        ],
+        [
+          "2026-02-01",
+          278248,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2026-02-19",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/171524/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/33b295d4826431e8eea40d2927f09027",
+      "title": "0219(20조간)자동차과, 2026년 1월 자동차수출 60.7억불, 역대 1월 중 2위.pdf",
+      "sha256": "b59d9f342454f25b5275d0b2e2757c858e364d9cd64ec42ed996a35806cfe1bb",
+      "observations": [
+        [
+          "2025-01-01",
+          290588,
+          "production_table"
+        ],
+        [
+          "2025-12-01",
+          362564,
+          "production_table"
+        ],
+        [
+          "2026-01-01",
+          360500,
+          "production_table"
+        ],
+        [
+          "2025-01-01",
+          290588,
+          "production_table"
+        ],
+        [
+          "2025-12-01",
+          362564,
+          "production_table"
+        ],
+        [
+          "2026-01-01",
+          360500,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2026-02-05",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/171496/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/ac924d1f3a0cf810adcd1c5df6be34d7",
+      "title": "0205(06조간)자동차과, 산업부, ‘26년 자동차 산업에 4,645억 원 투자.pdf",
+      "sha256": "c4d98070689490c051d2467908c7cfe17f26a8e8ca2caa6a9f8c2fbf0a882803",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2026-01-15",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/171439/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/4834ff5b2b16fef839c67fac4498f452",
+      "title": "0115(16조간)자동차과, 2025년 자동차 수출액 720억불로 역대최대.pdf",
+      "sha256": "b500032949aa4f50ba9f9756921e913f32d70d9a7b09751d8e7a834c0c95a555",
+      "observations": [
+        [
+          "2024-12-01",
+          373361,
+          "production_table"
+        ],
+        [
+          "2025-11-01",
+          354204,
+          "production_table"
+        ],
+        [
+          "2025-12-01",
+          362356,
+          "production_table"
+        ],
+        [
+          "2024-12-01",
+          373361,
+          "production_table"
+        ],
+        [
+          "2025-11-01",
+          354204,
+          "production_table"
+        ],
+        [
+          "2025-12-01",
+          362356,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2025-12-22",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/171366/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/2ffdf5a41078d04edf8a0a78dbc05ccd",
+      "title": "1219(22조간)자동차과, 자동차 수출 1~11월 누적 660.4억불로 역대 최대, 올해 사상 최고치 달성 전망.pdf",
+      "sha256": "3f4d0d3d77ebe82b6ca81eedf8f1f98d44a729b5ec07a05ebed62e6a49a26274",
+      "observations": [
+        [
+          "2024-11-01",
+          344358,
+          "production_table"
+        ],
+        [
+          "2025-10-01",
+          302819,
+          "production_table"
+        ],
+        [
+          "2025-11-01",
+          354243,
+          "production_table"
+        ],
+        [
+          "2024-11-01",
+          344358,
+          "production_table"
+        ],
+        [
+          "2025-10-01",
+          302819,
+          "production_table"
+        ],
+        [
+          "2025-11-01",
+          354243,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2025-11-20",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/171224/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/451996bd9f2fe370ca70c73cc4f56873",
+      "title": "1120(21조간)자동차과, 25년 10월 자동차산업 동향.pdf",
+      "sha256": "8d853d3154fb025ebe1bc11b984c054dad5d7190c0fdee712295c1b119f66dd0",
+      "observations": [
+        [
+          "2024-10-01",
+          367622,
+          "production_table"
+        ],
+        [
+          "2025-09-01",
+          334289,
+          "production_table"
+        ],
+        [
+          "2025-10-01",
+          302893,
+          "production_table"
+        ],
+        [
+          "2024-10-01",
+          367622,
+          "production_table"
+        ],
+        [
+          "2025-09-01",
+          334289,
+          "production_table"
+        ],
+        [
+          "2025-10-01",
+          302893,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2025-10-20",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/171091/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/83de2cd45e58f52d8625e7ab4ad0f3d3",
+      "title": "1020(21조간)자동차과, 25년 9월 자동차산업 동향.pdf",
+      "sha256": "d2a7a19ce8025d886a9440a9530484844ac31c0aeff342c0fb9a3336f62cdb4a",
+      "observations": [
+        [
+          "2024-09-01",
+          307026,
+          "production_table"
+        ],
+        [
+          "2025-08-01",
+          320942,
+          "production_table"
+        ],
+        [
+          "2025-09-01",
+          334319,
+          "production_table"
+        ],
+        [
+          "2024-09-01",
+          307026,
+          "production_table"
+        ],
+        [
+          "2025-08-01",
+          320942,
+          "production_table"
+        ],
+        [
+          "2025-09-01",
+          334319,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2025-09-16",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/170916/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/127ba51451f09593c09bfe31379b8a6f",
+      "title": "0916(17조간)자동차과, 25년 8월 자동차산업 동향.pdf",
+      "sha256": "b50e9615807c1f27506231bfc3ab8e0e82f4007d7c4c1feb03e632aa0bb3b195",
+      "observations": [
+        [
+          "2024-08-01",
+          299687,
+          "production_table"
+        ],
+        [
+          "2025-07-01",
+          316281,
+          "production_table"
+        ],
+        [
+          "2025-08-01",
+          321008,
+          "production_table"
+        ],
+        [
+          "2024-08-01",
+          299687,
+          "production_table"
+        ],
+        [
+          "2025-07-01",
+          316281,
+          "production_table"
+        ],
+        [
+          "2025-08-01",
+          321008,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2025-08-19",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/170818/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/fa2fbda8eb0856278f3022dc56f9ecbe",
+      "title": "0819(20조간)자동차과, 2025년 7월 자동차산업 동향.pdf",
+      "sha256": "6c0204a5fc6b7e02131cb7e091623e2e43be954bc194adeaf3ae8ecaa33b332b",
+      "observations": [
+        [
+          "2024-07-01",
+          290906,
+          "production_table"
+        ],
+        [
+          "2025-06-01",
+          353230,
+          "production_table"
+        ],
+        [
+          "2025-07-01",
+          316295,
+          "production_table"
+        ],
+        [
+          "2024-07-01",
+          290906,
+          "production_table"
+        ],
+        [
+          "2025-06-01",
+          353230,
+          "production_table"
+        ],
+        [
+          "2025-07-01",
+          316295,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2025-07-17",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/170722/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/1b17a37d2bc5c43a5f44a6101a362d32",
+      "title": "0717(18조간)자동차과, 2025년 6월 자동차산업 동향.pdf",
+      "sha256": "87d74f3f5b7927644e0a14692aa351d270c01b51d731cf44ad79911318f49933",
+      "observations": [
+        [
+          "2024-06-01",
+          353567,
+          "production_table"
+        ],
+        [
+          "2025-05-01",
+          358969,
+          "production_table"
+        ],
+        [
+          "2025-06-01",
+          353233,
+          "production_table"
+        ],
+        [
+          "2024-06-01",
+          353567,
+          "production_table"
+        ],
+        [
+          "2025-05-01",
+          358969,
+          "production_table"
+        ],
+        [
+          "2025-06-01",
+          353233,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2025-06-17",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/170614/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/a9cbb0e9208fae483cfcf944a43a975b",
+      "title": "0617(18조간) 자동차과, 2025년 5월 자동차산업 동향.pdf",
+      "sha256": "b64834eba929096e0ea0582eabfc2db4932cf1a7fcd4ab424a2cf8f6343199d8",
+      "observations": [
+        [
+          "2024-05-01",
+          372814,
+          "production_table"
+        ],
+        [
+          "2025-04-01",
+          385624,
+          "production_table"
+        ],
+        [
+          "2025-05-01",
+          358969,
+          "production_table"
+        ],
+        [
+          "2024-05-01",
+          372814,
+          "production_table"
+        ],
+        [
+          "2025-04-01",
+          385624,
+          "production_table"
+        ],
+        [
+          "2025-05-01",
+          358969,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2025-05-20",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/170535/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/1ed985bea5d282e837f0ed3781efefc0",
+      "title": "0520(21조간)자동차과, 2025년 4월 자동차산업 동향.pdf",
+      "sha256": "f9c4e655a22f8cdf1f6f8d8bd15153cb6b7370f7427a0626a4a7f130bf2c02f3",
+      "observations": [
+        [
+          "2024-04-01",
+          394458,
+          "production_table"
+        ],
+        [
+          "2025-03-01",
+          370629,
+          "production_table"
+        ],
+        [
+          "2025-04-01",
+          385621,
+          "production_table"
+        ],
+        [
+          "2024-04-01",
+          394458,
+          "production_table"
+        ],
+        [
+          "2025-03-01",
+          370629,
+          "production_table"
+        ],
+        [
+          "2025-04-01",
+          385621,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2025-04-15",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/170417/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/fe1f3b017486f2bce328002ab06025be",
+      "title": "0415(16조간)자동차과, 2025년 1분기 자동차산업 동향.pdf",
+      "sha256": "158aa5e9f08b6c93b93beb24b03e6dffabef9680da10b7fe578a4b570e856fad",
+      "observations": [
+        [
+          "2024-03-01",
+          365520,
+          "production_table"
+        ],
+        [
+          "2025-02-01",
+          352061,
+          "production_table"
+        ],
+        [
+          "2025-03-01",
+          370836,
+          "production_table"
+        ],
+        [
+          "2024-03-01",
+          365520,
+          "production_table"
+        ],
+        [
+          "2025-02-01",
+          352061,
+          "production_table"
+        ],
+        [
+          "2025-03-01",
+          370836,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2025-04-04",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/170381/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/858c1a47309c44335ea582feed56114b",
+      "title": "0403(4석간)자동차과, 모빌리티 산업의 미래를 조망하다.pdf",
+      "sha256": "7643ba5b9edb1a7efb0d79727657054dd42993ff5aafed20eb4de0f559721f48",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2025-03-28",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/170346/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/3341ef440612f2aac5ca12d90ac9c7c0",
+      "title": "0327(28석간)자동차과, 1차관, 자동차 산업현장 긴급 순회점검.pdf",
+      "sha256": "d301565136744aed58bb6378c664e734a8203bf8138baf257dd757efbad26927",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2025-03-18",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/170293/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/e538dcd2f1755cfa208047a635c16914",
+      "title": "0318(19조간)자동차과, 2025년 2월 자동차 산업 동향.pdf",
+      "sha256": "8ce90a967b1c2b19781362a6084768e051010046ccbc952343f0786bc56f977b",
+      "observations": [
+        [
+          "2024-02-01",
+          300459,
+          "production_table"
+        ],
+        [
+          "2025-01-01",
+          290588,
+          "production_table"
+        ],
+        [
+          "2025-02-01",
+          351983,
+          "production_table"
+        ],
+        [
+          "2024-02-01",
+          300459,
+          "production_table"
+        ],
+        [
+          "2025-01-01",
+          290588,
+          "production_table"
+        ],
+        [
+          "2025-02-01",
+          351983,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2025-03-07",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/170244/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/e40aa5735d5e7f82fce53ac1ed7146d1",
+      "title": "(참고자료)자동차과, 대미협력TF 산업계 의견수렴 및 대응 논의.pdf",
+      "sha256": "06e45ef651711f2306b3a55e7514d1ccae42263ab588fe194f5b498ab97f3779",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2025-02-18",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/170158/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/7eb0ac3f0a3b4f4355556fd7ab9b6d7e",
+      "title": "0218(19조간)자동차과, 25년 1월 자동차산업 동향.pdf",
+      "sha256": "9d4374ec25573b86ed002acb252083f2603bdaed8f8251b91d44788657baf934",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2025-01-16",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/170049/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/bdf4ca515a7d208cbe674b1ab13468c0",
+      "title": "0116(17조간)자동차과, 한눈에 보는 2024년 자동차 산업 동향.pdf",
+      "sha256": "28444d4a180e7e433dc1a1057610a91fc3d91e892626e522567dcd063512a873",
+      "observations": [
+        [
+          "2024-12-01",
+          373566,
+          "production_single_month_table"
+        ],
+        [
+          "2024-12-01",
+          373566,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2025-01-15",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/170037/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/0bbac6ff0c25316c5f91ef5aae4e5a3e",
+      "title": "0114(15석간, 15일(수) 10시30분엠바고)자동차과, 친환경차·이차전지 산업에 새로운 활력을.pdf",
+      "sha256": "f407fdac508262b6cf1a175e7c427fa1f5351c7f735ec2571679734a5c340484",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2024-12-16",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/169937/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/3b479c55949ecbac6d747e3f56be4465",
+      "title": "1216(17조간)자동차과, 2024년 11월 자동차산업 동향.pdf",
+      "sha256": "5637229fc7335faf6057bde508f16f62c0d383e1e5ae7214be0681a6a5c9ecbc",
+      "observations": [
+        [
+          "2024-11-01",
+          344355,
+          "production_single_month_table"
+        ],
+        [
+          "2024-11-01",
+          344355,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2024-11-14",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/169785/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/9c676b02086711bd660da27996b543d7",
+      "title": "1114(15조간)자동차과, 2024년 10월 자동차산업 트리플 플러스.pdf",
+      "sha256": "9ba6cbe00e19c346b9c5178b7a716fec8f04c4ae044ca351927d6ae8d871843e",
+      "observations": [
+        [
+          "2024-10-01",
+          367624,
+          "production_single_month_table"
+        ],
+        [
+          "2024-10-01",
+          367624,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2024-10-17",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/169649/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/ed353e5b65b6f98e6a0ac2a5f694dced",
+      "title": "1017(18조간)자동차과, 2024년 9월 자동차산업 동향.pdf",
+      "sha256": "fa9dfe013f4164a59db634078bc06779f8731137e88e619cff25459853ff6376",
+      "observations": [
+        [
+          "2024-09-01",
+          307026,
+          "production_single_month_table"
+        ],
+        [
+          "2024-09-01",
+          307026,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2024-09-19",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/169527/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/ac17bb8a7dd913deabbaf12b4a3c9b88",
+      "title": "0919(20조간)자동차과, 2024년 8월 자동차산업 동향.pdf",
+      "sha256": "c543caf139c18e23b9949875aaa6bb59f22e4fa3ef0028bebb5cb0691c239036",
+      "observations": [
+        [
+          "2024-08-01",
+          289948,
+          "production_single_month_table"
+        ],
+        [
+          "2024-08-01",
+          289948,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2024-08-16",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/169395/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/e110a6ccfba8b9963ec0190284eca251",
+      "title": "0815(16조간)자동차과, '24.7월 자동차산업 동향.pdf",
+      "sha256": "5e2ea74d05f9ce90be7faac39302e208f49134ebb0d67dc15192b7e9514db588",
+      "observations": [
+        [
+          "2024-07-01",
+          290910,
+          "production_single_month_table"
+        ],
+        [
+          "2024-07-01",
+          290910,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2024-07-16",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/169320/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/d4020061d0871342914d7cf941430c14",
+      "title": "0716(17조간)자동차과, 24년에도 자동차 수출 최고실적 이어간다.pdf",
+      "sha256": "6ca66742c9ceefbe2e2187b0cf7fddec03d2c033f217fb067f5a61e97db34f40",
+      "observations": [
+        [
+          "2024-06-01",
+          353577,
+          "production_single_month_table"
+        ],
+        [
+          "2024-06-01",
+          353577,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2024-06-25",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/169229/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/9ff2b8e9dbee33218759f8cc1ee4f96e",
+      "title": "0624(25석간, 25일(화) 10시엠바고)자동차과, 미래차부품 산업 전환을 위한 지원법 체계 가동.pdf",
+      "sha256": "f2e3c0be1bff0b085ff2a034b6ec56b46d91bc4b21b73ed73bd8d84ddc59f67d",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2024-06-20",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/169210/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/ae1c78395ed362d4ded4af469dcc73eb",
+      "title": "0620(21조간)자동차과, 5월 자동차 수출 65억 달러, 역대 5월 중 최고.pdf",
+      "sha256": "327ba5e051846ee0d42f297aa21180cab8c8552079328fb0603a363dfb4c3808",
+      "observations": [
+        [
+          "2024-05-01",
+          372810,
+          "production_single_month_table"
+        ],
+        [
+          "2024-05-01",
+          372810,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2024-04-16",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/168911/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/aaa616bcb176ad2f0a58559bf819c746",
+      "title": "0415(16석간)자동차과, 자동차부품 신시장 개척 확대로 '24년 자동차산업 최대 수출실적 달성 도모.pdf",
+      "sha256": "01f0661035e5ca15a064711404c378c4aed6f75b0b656708bba0d3ca4a6bdb69",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2024-04-11",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/168892/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/a54c22291f8f7e4798a7573a80325645",
+      "title": "0411(12조간)자동차과, '24년 1분기 자동차 수출, 175억 달러로 전년동기 대비 2.7% 증가.pdf",
+      "sha256": "b79a1e492ec6c26a5ebdb32b484961fed0509fb686c20a23b13c87da0a37d173",
+      "observations": [
+        [
+          "2024-03-01",
+          365497,
+          "production_single_month_table"
+        ],
+        [
+          "2024-03-01",
+          365497,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2024-03-19",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/168783/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/c0f446e8771b9761df1017a8e854e174",
+      "title": "0319(20조간)자동차과, 2월까지 자동차 수출 114억 달러, 전년대비 7.5% 증가.pdf",
+      "sha256": "529f8af9ac1b0ea170c370b4cb9f52833ea9f00ae841c5715740f4492423e353",
+      "observations": [
+        [
+          "2024-02-01",
+          300459,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2024-01-16",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/168480/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/96402b74cd8d307dcac7d1b1abc2ea51",
+      "title": "0116(17조간)자동차과, K-자동차, 지난해 사상 최초로 709억 달러 수출대기록.pdf",
+      "sha256": "7f27126622b75500300c8d5e1baf2ed2bc01605a8685e7ac56468a02387a5d3a",
+      "observations": [
+        [
+          "2023-12-01",
+          367622,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2023-12-14",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/168328/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/37ea65107e08e057a80ebaffcc56b367",
+      "title": "1214(15조간)자동차과, K-자동차, 645억 달러 수출로 사상최고 기록.pdf",
+      "sha256": "301e70a3cccb7b50e2683df072f948be5b26b933542ab386ca89b23c2a0956df",
+      "observations": [
+        [
+          "2023-11-01",
+          370145,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2023-12-08",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/168293/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/0214a620a2cac4d4e660ae46666c2d22",
+      "title": "(참고자료, 배포즉시)자동차과, 「미래자동차 부품산업의 전환촉진 및 생태계 육성에 관한 특별법안」 국회 통과.pdf",
+      "sha256": "9d3784dea2be7275738d99a3be6812c645e5c444c97d2a79bfcb40305b039b5a",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2023-11-15",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/168131/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/d7dd37259e84d23426b3f19e03c135fc",
+      "title": "1115(16조간)자동차과, K-자동차, 10개월 만에 작년 수출실적 돌파.pdf",
+      "sha256": "aa070b50f21d86a3dcb271d8b37ce8ecb16083dfe3df3ffe61e63771cb9ebf69",
+      "observations": [
+        [
+          "2023-10-01",
+          341019,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2023-10-24",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/167979/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/6ecd96d4624a371b4c928a5d9c8c529e",
+      "title": "1023(24석간)미래자동차산업과, 차량용 반도체 상생협력을 위한 교류의 장 마련.pdf",
+      "sha256": "a4b8f94748202ca61d6d8035b8314f883c9a098620a1304855c281237243fc3c",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2023-10-19",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/167956/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/ee1d7c8dff487cff6430c4e49f6fa089",
+      "title": "1018(19석간)미래자동차산업과, 고성능 자율주행 연구개발을 위한 대학생들의 도전이 시작된다.pdf",
+      "sha256": "3ca31ba231e953b0bf4efb17128f9f0bbf4a48f2a7b42b8e5c9816cf31d0ab08",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2023-10-18",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/167952/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/0bcfaba1cb6bb10f26e48e5813f2318e",
+      "title": "1018(19조간)자동차과, 올해 친환경차 수출, 역대 최고치 경신.pdf",
+      "sha256": "808650f08b8234253cda45c287e7e5bb3bb41d46217d14dd0981adaa1843b58f",
+      "observations": [
+        [
+          "2023-09-01",
+          301799,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2023-09-19",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/167835/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/5b88a3decadb4a29870c50d43c10590e",
+      "title": "0919(20조간)자동차과, 자동차 수출, 14개월 연속 두 자릿수대 증가.pdf",
+      "sha256": "d3acb30bb1a52c1da28f4ab1d310bacb7adb617aa14b5296bbd2471ea1c76244",
+      "observations": [
+        [
+          "2023-08-01",
+          311959,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2023-08-18",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/167696/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/5804a7c30ab2bd84fda7d7016036159a",
+      "title": "0818(19조간, 배포즉시)미래자동차산업과, 청년 대학생이 자율주행 소프트웨어(SW) 기술 역량 겨뤘다(최종).pdf",
+      "sha256": "8ea5bfe8b57259b67670bb0738487d97682ac16bb0edecea6f32e52eefc5eeea",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2023-08-17",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/167685/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/176dde4947d21053d278efc4c0b59307",
+      "title": "0817(18조간)자동차과, 올해 자동차 수출, 최단기간 내 400억 달러 돌파.pdf",
+      "sha256": "76385fb596453483e54c58eeb02acdddc97142866738d4908d60b1b0c7606c46",
+      "observations": [
+        [
+          "2023-07-01",
+          352972,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2023-07-17",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/167560/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/8b8c18d3fc480bf671dc9d04dc5776cc",
+      "title": "0717(18조간)자동차과, 상반기 자동차 수출, 357억 달러로 역대 최고.pdf",
+      "sha256": "83482401ea5950a3726bfe0f44d84d69ca82723f17fae6a97e3a0489d99c682d",
+      "observations": [
+        [
+          "2023-06-01",
+          370284,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2023-06-15",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/167377/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/86c1a2e4592bb648d0482912adcb9792",
+      "title": "0615(16조간)자동차과, 5월 자동차 수출액, 62억 달러로 역대 5월 중 최고.pdf",
+      "sha256": "1562b120a7603fbc1807f72881fca87c7db16008c4aa812c14b95751c468fd59",
+      "observations": [
+        [
+          "2023-05-01",
+          382129,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2023-05-31",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/167310/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/0ee913df8f3c9391498a159106bdcfe9",
+      "title": "0531(1조간, 엠바고31일(수)12시)자동차과, 공공부문 저공해차 구매·임차, 2022년 구매실적 및 2023년 구매계획 공개.pdf",
+      "sha256": "04c1b0ab51e80d8627790cc65b4929d131b19a338282a2aec696f560fed0d505",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2023-05-31",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/167304/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/a5f3c413c775d54e487096e4918605bd",
+      "title": "0530(31석간)자동차과, K-수소전기트램, 해외수출을 위한 국내실증 본격개시.pdf",
+      "sha256": "555827328c94568807010069b0b26df09ef7d7a9b587eba6d35da27f3f4a701b",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2023-05-23",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/167260/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/25dda667263654d7136f18fa8ab41fda",
+      "title": "0523(24조간, 엠바고23일(화)14시)자동차과, 자동차 부품산업의 신속하고 유연한 전환을 통해 미래차 시대 준비에 본격 나선다.pdf",
+      "sha256": "0fc771c32efa28bc0619ca0aff13ff99e444b244706ae77c0d0f385f28498cf0",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2023-05-16",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/167213/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/136d72cd40bfa90cb4a9e7c21101461b",
+      "title": "0516(17조간)자동차과, 4월까지 자동차 수출액  232억 달러로 사상 최고.pdf",
+      "sha256": "d322cfbec433d11f491aa39085aed4c0041a2ecef5323045947ebeecf3d2503b",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2023-04-17",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/167094/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/4510eca3d1b6417a8841740dd3315014",
+      "title": "0417(18조간)자동차과, 3월 자동차 수출, 역대 최고 65억 달러.pdf",
+      "sha256": "5d6803346ae6f31104910e701c164bc701f32240577679b7a7be8a7e732bec1a",
+      "observations": [
+        [
+          "2023-03-01",
+          409806,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2023-04-04",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/167035/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/10e17c6a56e402f366c87c0782e05dff",
+      "title": "0404(5조간)미래자동차산업과, 미래차 핵심인력 3,700명 양성에 315억 원 투입.pdf",
+      "sha256": "e16a79454fb0577730a3de43d939d52b403909db8ff005a1cb5156c71e513516",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2023-03-29",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/166990/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/033af760d971f862d1e39a0d562d7528",
+      "title": "0328(29석간, 29일(수) 10시30분 엠바고)자동차과, 완성차-해운업계, 자동차 수출 물류 적극 협력.pdf",
+      "sha256": "ed31dabfa560dbce6c08d2b245b7a5c46c7e9c008e5112722ce9f25a99bc4cce",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2023-03-20",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/166941/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/3431619931d41dc04000307ae5ee6386",
+      "title": "0320(21조간)자동차과, 2023년 2월 자동차산업 동향.pdf",
+      "sha256": "d0cbd8ca4ff47780159115cba1c35ef3b40530ab35b1c85ffad826dd5f4097da",
+      "observations": [
+        [
+          "2023-02-01",
+          343575,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2023-02-06",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/166762/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/883ee638515de964c0810d24beb0fbbb",
+      "title": "0206(7조간)미래자동차산업과, 소프트웨어(SW) 등 미래차 선도 인력 양성 3,700명 양성.pdf",
+      "sha256": "0720cfe6e5108faa6f8ebb6a50638cbf0869a9054ecbcb4a0b5e2d2b6b91b1fd",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2022-12-20",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/166554/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/1f73d6e3a601384341fc90e64febfe91",
+      "title": "1220(21조간)미래자동차산업과, 산업정책실장, e-모빌리티 연구․실증단지 착수식 참석.pdf",
+      "sha256": "6e14655218abfc675beae3dcbef17bcf10a0330fcc35f3e94272605767d5fee7",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2022-12-12",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/166523/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/37da53d4539ddff331653d056fb4a081",
+      "title": "1212(13조간)자동차과, 2022년 11월 자동차산업 동향(잠정).pdf",
+      "sha256": "d3914756897bd19969118934d167e7055357d9d00398530964dce6c155117749",
+      "observations": [
+        [
+          "2022-11-01",
+          379797,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2022-11-24",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/166407/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/4bfe03a2db344cba2462e5509a235fe3",
+      "title": "1124(25조간)미래자동차산업과, 산업부, 커넥티드카 얼라이언스 출범식 개최.pdf",
+      "sha256": "cfef65ba47330e20aca9913d4ea9616aa3c2ce2ef8ccf52a228be1f153827534",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2022-11-11",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/166327/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/7c3679b02cb6c1239b56b7bfbec8bd68",
+      "title": "(12조간)자동차과, 2022년 10월 자동차산업 동향(잠정).pdf",
+      "sha256": "93faf37f680755ee7ef86b85f16f488932e0d8507b37f640e166f09354db8eca",
+      "observations": [
+        [
+          "2022-10-01",
+          327486,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2022-10-14",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/166162/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/a57b7682ddbd43c4a138b954d284cabf",
+      "title": "1014(15조간)자동차과, 2022년 9월 자동차산업 동향(잠정).pdf",
+      "sha256": "a2920da7131d9d2d465eb00551c887b9e4fa049d751277180462cd4ada34f659",
+      "observations": [
+        [
+          "2022-09-01",
+          307721,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2022-09-29",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/166110/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/1e01f0108985ec2be327976ab8cb1d43",
+      "title": "0929(30조간)미래자동차산업과, 차량용 반도체 내재화를 위한 기업지원 강화.pdf",
+      "sha256": "361bd2b0801ddfb8cd88f99ae4adf9ab11d56cc3573a410cbc39430aa457b02a",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2022-09-28",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/166104/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/5b2a88815cab56ceaaf2e64fb5d6a3d7",
+      "title": "(별첨2) 자동차 산업 대전환 전략맵(Map).pdf",
+      "sha256": "b1617e613df6afee1bacd3feb5573b2c0cf450121651c27d402b09529b5677f3",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2022-09-16",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/166038/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/b7598b12e9fadb0623fbadcf6216abe6",
+      "title": "0916(17조간)자동차과, 2022년 8월 자동차산업 동향(잠정).pdf",
+      "sha256": "450f5840240233dcba82d3991af07ebfd66a74aa5f37cc09878a9557621fca7c",
+      "observations": [
+        [
+          "2022-08-01",
+          284361,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2022-09-01",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/165970/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/b7694828c28603d3bcc6252c5632a25c",
+      "title": "0831(1석간)미래자동차산업과, Lv.4 자율주행기술 선점을 위한 ‘K-자율주행 통합 체계’ 구축한다!!.pdf",
+      "sha256": "e0d2b9f1d765908b60b3ce9414ff814f1f460c4de864ed9f9b201ba84443b249",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2022-08-16",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/165907/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/c81bc209d38ffdf83f6739714e97ec75",
+      "title": "0815(16조간)자동차과, 2022년 7월 자동차산업 동향(잠정).pdf",
+      "sha256": "b83a4a2edf636b624ab90490bb9be8b502160efec8bdb7f79af3c4ed973fdb44",
+      "observations": [
+        [
+          "2022-07-01",
+          324668,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2022-07-15",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/165794/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/6cec425b4f61001603a7e06292675015",
+      "title": "0715(16조간)자동차과, 2022년 상반기 및 6월 자동차산업 동향(잠정).pdf",
+      "sha256": "79c46c7675d2e9277733fa5d7dde889ffe1caa7d60c21bb3f4a643794ee4be89",
+      "observations": [
+        [
+          "2022-06-01",
+          328360,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2022-07-13",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/165786/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/4cfde600d39fa2aeeede3ba7cfb0e5fd",
+      "title": "0713(14조간)미래자동차산업과,  2022 대학생 자율주행 경진대회 본격 질주.pdf",
+      "sha256": "535d5b8f650a2bf80c3c6e490881aced422f2ea98351f000e7feef2872c074b8",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2022-07-13",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/165785/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/69d16f07c1772b33849304e5bfced0d5",
+      "title": "0712(13석간)미래자동차산업과, 자율차 정책의 현재·미래 논하는 소통의 장 열린다!.pdf",
+      "sha256": "6ee32af549a0e880206b11708f2957abc01a1d76179caefd531fbd1a97461065",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2022-07-04",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/165744/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/5a8d54ec1d33371b2fe66b64115acbd4",
+      "title": "0701(4조간)미래자동차산업과, 미래자동차 산업 육성을 선도할 혁신인재양성 본격화.pdf",
+      "sha256": "cb9e5a348a94c07ec759f807f2a4495d5024d35718759b86215f875a9fef0d92",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2022-06-27",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/165721/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/c6e051427105d14c96415822c9908006",
+      "title": "0627(28조간)미래자동차산업과, 산업부, 미래차 인스트럭터(교수·강사) 양성 본격 추진.pdf",
+      "sha256": "9b5bbea4aecf438d4be0941fb47fa77bd2e4a4a14d18ac8b1cc221d0f4b81847",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2022-06-17",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/165696/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/1b9e78f5e9079a565affb06d51e49092",
+      "title": "0617(18조간)미래자동차산업과, 어떤 미래차 인재가 필요하신가요.pdf",
+      "sha256": "0be739059795dea41fab1175e5d71335f4647beb7d6e86924b98078cb78d0fe0",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2022-06-15",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/165688/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/855a095c008907e2432428b1bc1135c1",
+      "title": "0615(16조간)자동차과, 2022년 5월 자동차산업 동향(잠정).pdf",
+      "sha256": "65b0167937c5082dd8c827331d71bc858b3ca74f86fd25b8fe33b2e727421436",
+      "observations": [
+        [
+          "2022-05-01",
+          307048,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2022-05-16",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/165591/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/ac6686768e09105e7c5d0080ec2b2cf3",
+      "title": "0516(17조간)자동차과, 2022년 4월 자동차산업 동향(잠정).pdf",
+      "sha256": "3a4b334e97dc0efd7a5051846448fcdd49fd5eaa6bb61a3f35bdd0bd9f93d50c",
+      "observations": [
+        [
+          "2022-04-01",
+          306462,
+          "production_table"
+        ],
+        [
+          "2021-04-01",
+          323672,
+          "production_table"
+        ],
+        [
+          "2022-03-01",
+          302156,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2022-04-21",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/165531/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/7e6d2bb084c3b4936a2ae19fd18a0b03",
+      "title": "0421(22조간)미래자동차산업과, '30년까지 미래차 전문인재 3만명 양성한다.pdf",
+      "sha256": "9370292f5e10932bcf83f33aaca620dc3132be2d69f3e28bc72edab7ecc4a00b",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2022-04-15",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/165511/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/f8877da86f11a809e452ebb86d2f2d7a",
+      "title": "0415(16조간)자동차과, 2022년 3월 자동차산업 동향(잠정).pdf",
+      "sha256": "41e2e66e4286b87cc34dc068cd5bd171d06102a174b0718ce4e4bdfbfea08cc6",
+      "observations": [
+        [
+          "2022-03-01",
+          302161,
+          "production_table"
+        ],
+        [
+          "2021-03-01",
+          333869,
+          "production_table"
+        ],
+        [
+          "2022-02-01",
+          263959,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2022-03-28",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/165439/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/0bb1a584a47c0c8027d8f87b2fcfe943",
+      "title": "0328(29조간 14시엠바고)미래자동차산업과, 국내 최초 레벨3 완성차 출시를 앞두고,‘자율주행 산업발전을 위한 산학연 간담회’개최.pdf",
+      "sha256": "fa4a0916b86a393f88688f49d9ce7f630e4f17cc9cbcfbac8627af5268265377",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2022-03-16",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/165408/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/10d25598b6531375b2b32924c6f99618",
+      "title": "0316(17조간)자동차과, 2022년 2월 자동차산업 동향(잠정).pdf",
+      "sha256": "8d60c7e10fcf900ee2de046a7bc7c664fe3ebe5b841352bddcc87ddd3fc0a99e",
+      "observations": [
+        [
+          "2022-02-01",
+          263959,
+          "production_table"
+        ],
+        [
+          "2021-02-01",
+          260781,
+          "production_table"
+        ],
+        [
+          "2022-01-01",
+          271054,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2022-02-15",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/165297/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/ed10208cdfe3548947ff1fcc29a02a2b",
+      "title": "0215(16조간)자동차과, 2022년 1월 자동차산업 동향.pdf",
+      "sha256": "2fcc7ed0fda672bcaf1bbc510e8bfe42203af7c0f3f3372f324ff35e29c17d45",
+      "observations": [
+        [
+          "2022-01-01",
+          271054,
+          "production_table"
+        ],
+        [
+          "2021-01-01",
+          314190,
+          "production_table"
+        ],
+        [
+          "2021-12-01",
+          319071,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2022-01-26",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/165219/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/2de73b4d96aae9d854f3c9f058ecd412",
+      "title": "0126(27조간)자동차과, 산업부, 22년 자동차분야 신규 R&D 지원대상과제 통합공고 실시.pdf",
+      "sha256": "263bfead8a25c709221ea9cb94050e3aa08d1a966384fba6c205c58c31a00929",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2022-01-26",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/165214/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/5257a2cd76b19fbd15904a11120e91e4",
+      "title": "0126(27조간)미래자동차산업과, 자율주행기술 R&D 지원 12개 신규사업 공고 및 온라인 통합설명회 개최.pdf",
+      "sha256": "32c9448900da4fc004e54789fa047972a5b4f59950c4364af10ecca38e6a9099",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2022-01-18",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/165172/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/38a410753f3dbd94999897e065fccc28",
+      "title": "0118(19조간) 21년 12월 및 연간 자동차산업 동향.pdf",
+      "sha256": "9e7eacc48a80b302cc6476dd8c0cb713e7d003d603769cb0fba5eec1cfeba2e7",
+      "observations": [
+        [
+          "2021-12-01",
+          319071,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2022-01-13",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/165157/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/3576c450af5d18b5c3a6e46a9ae6fe46",
+      "title": "0112(13석간)미래자동차산업과_“미래차 경쟁력 강화를 위한 디지털 전환 고도화 추진”.pdf",
+      "sha256": "ce4ebbcf30f3f4d21fca268a7c932efee3b90a3b4a2f6240de6af80c11dc41bb",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2022-01-12",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/165151/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/78decef86f1f406767da1ab4f3d47718",
+      "title": "0112(13조간)자동차과, 산업부, 탄소중립연료 R&D, 워킹그룹 운영 추진-(별첨)재생합성연료(e-Fuel) 연구보고서.pdf",
+      "sha256": "a5ee0becf886d2444dc251682830bfe7b840c13bae48a6542f63d2bae3b202ef",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2022-01-03",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/165113/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/23126c026502372419a174624e56a161",
+      "title": "1231(3조간)미래자동차산업과, 미래차 시대를 이끌어갈 인재 양성 본격화.pdf",
+      "sha256": "16b6f0d92fbaa81a8c9140ff3fee090baa0683e5e16f757cce0f30e36cd8cb98",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2021-12-21",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/165045/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/8272adbe9f4014a6c1fb17658bd041a5",
+      "title": "1222(22조간)자동차과, 자동차산업 미래차 전환 동향 및 부품기업 경영상황 발표.pdf",
+      "sha256": "772aeb200bf208ce4f7bc8e0ed36fc0e0e87ceb4c6a8c3e34680fe37d30fb865",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2021-12-15",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/165013/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/bd763f73648c0e28cc84876c8cb75b44",
+      "title": "1215(16조간)자동차과, 2021년 11월 자동차산업 동향.pdf",
+      "sha256": "db15a0bee6cad80287dff974bcc43c37dfd5a6d08f9716c5e175e30476ee5fc8",
+      "observations": [
+        [
+          "2021-11-01",
+          302983,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2021-12-14",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/165002/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/1bd48bac4be9121806c3468fddef7d45",
+      "title": "1214(15조간)자동차과, 산업부, ’22년 자동차 예산 4,709억원으로 대폭 확대(최종본).pdf",
+      "sha256": "b7864500d051d5fdba916d5f9c270bcf292b725848ae5a8375ca0bae64760627",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2021-12-02",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/164939/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/965f972b8a7f11374845187dfe5c8f57",
+      "title": "1201(2석간)미래자동차산업과, 자동차 산업전환에 대응한 선제적 인력지원 강화.pdf",
+      "sha256": "343dd66764b9707d9b35bccf16e0f425c8f0931809f3ed98239b2d284776e9f3",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2021-11-18",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/164870/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/c49b72dcdd89b161f2a3910212a32228",
+      "title": "1118(19조간)자동차과, 2021년 10월 자동차산업 동향.pdf",
+      "sha256": "143df56a058faf00a07f491c1ea8d3754622d6c66d3d19d47bc234526e6ad222",
+      "observations": [
+        [
+          "2021-10-01",
+          263723,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2021-11-10",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/164817/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/5b5f39c302d4b853ba505274d3e372dc",
+      "title": "1110(11조간)미래자동차산업과, 제 26차 유엔 기후변화협약 당사국총회(COP26) 연계, 글로벌 무공해차 전환 가속화 논의(수정본).pdf",
+      "sha256": "5d5daf5dd93aace5ed0e71b006c537416cdaa8a0308ccdf555fc3a4eea2aa2c3",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2021-10-21",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/164709/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/b4fa4004cf1119ed5d3189a8027271a9",
+      "title": "1021(22조간)미래자동차산업과, 2022 대학생 자율주행 경진대회 개최.pdf",
+      "sha256": "eba8ef011d31ed89443ebbd831dadd11bd7e14ac5bff9f90edb54bcff7fe4671",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2021-10-15",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/164690/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/d400e5ae99ccb1e1d9c24b952e80b501",
+      "title": "(보도자료) 2021년 9월 자동차산업 월간 동향_v0.4.pdf",
+      "sha256": "9921e0b3844180c615758f2e900b523e5188d72176b7cc2c367dff67e1284112",
+      "observations": [
+        [
+          "2021-09-01",
+          229423,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2021-10-13",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/164678/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/a81f600766dbe07ab860b73a99274157",
+      "title": "1013(14조간)미래자동차산업과, 자율주행 글로벌 강국, 산업계간 협업으로 앞당긴다.pdf",
+      "sha256": "dc28a0d207332723d2284d0efab60927718b3a9d9f0d1f695c021434f8145af2",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2021-09-15",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/164568/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/0e73b0f288f7d88f1e6c150b97967987",
+      "title": "0915(16조간)2021년 8월 자동차산업 월간 동향.pdf",
+      "sha256": "19ed0d9e8585af5801707b57c0689ebb1891b6434831b535184347fd24a31e16",
+      "observations": [
+        [
+          "2021-08-01",
+          234893,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2021-08-18",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/164455/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/ac586c9cd115989972d34076d9db7acd",
+      "title": "0818(19조간)자동차과, 2021년 7월 자동차산업 월간 동향.pdf",
+      "sha256": "d64f0d779ca77294664f0929a700044e71ed89c9371b537cac39e32babd67b4c",
+      "observations": [
+        [
+          "2021-07-01",
+          297585,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2021-07-15",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/164359/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/473fc2c060fa51012847253cb6de62c6",
+      "title": "0715(16조간)자동차과, 2021년 상반기 및 6월 자동차산업 월간 동향(잠정).pdf",
+      "sha256": "ae74491e69cbe81cbe95cd447a3f3bc4a3bd0448279b87e767aeb37e26deb66b",
+      "observations": [
+        [
+          "2021-06-01",
+          325763,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2021-06-28",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/164281/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/53c81b6de75aad1120f0bb810a2e1537",
+      "title": "0625(28조간)미래자동차산업과, 자율주행기술개발혁신사업단 자율주행 4+단계  기술개발 본격 착수.pdf",
+      "sha256": "b1f2b341b9bc63de60f530197ceba4071d68beaad8c9d7f4f4f149cd8476aea2",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2021-06-14",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/164208/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/6e96bba95d5a43e8e6b9d78c49ede134",
+      "title": "0611(14조간)자동차과,  2021년 5월 자동차산업 월간 동향(잠정).pdf",
+      "sha256": "553eedb11b5591ff95766034c8c32ac7ecd8c66bcc8e58b124e7a047f780c3b2",
+      "observations": [
+        [
+          "2021-05-01",
+          256272,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2021-05-20",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/164111/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/4a6c7e46de14979439df80a65797d10c",
+      "title": "(20조간)자동차과, 산업부, 자동차 부품기업의 미래차 전환 지원 박차.pdf",
+      "sha256": "a0f44b9afbb0e1589f04410d96ce94fe05dae3627b48e43773b2a1820d9d1f60",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2021-05-17",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/164102/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/8314d3ba7e97e8b229e3ccfe2bc6accc",
+      "title": "0514(17조간)자동차과,  2021년 4월 자동차산업 월간 동향(잠정).pdf",
+      "sha256": "15280c051f235f9797435e12342148c912eb439aa8685916f88a4bace881b70a",
+      "observations": [
+        [
+          "2021-04-01",
+          323644,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2021-04-13",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/164012/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/1a476c15c2307b0efdf6a4aa920a0c51",
+      "title": "210413(14조간) 산업부 2021년 3월 자동차산업 월간 동향_v0.6.pdf",
+      "sha256": "ac7b368254c8b3cfc3fd460a3b87e8b14e308ed619dec868eff8bc400bef2796",
+      "observations": [
+        [
+          "2021-03-01",
+          333848,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2021-04-07",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/163992/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/ab75018b4bf6fba36d634266cb7659fd",
+      "title": "0407(8조간)미래자동차산업과, 국내 차량용반도체 산업역량 강화 및 자립화를 위한 구체적 연대, 협력 방안 모색.pdf",
+      "sha256": "a70d84cc3232538f3d5f23903eca48ccff1bd700f042e5dfeb332395885e1681",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2021-03-24",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/163928/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/fb17653a3e2e4ea27c9a0a3c02112e22",
+      "title": "0323(24석간)미래자동차산업과, 자율주행 레벨 4+ 상용화 앞당긴다!.pdf",
+      "sha256": "7720add1b61de5b3992232a30fc169abd1662044f5a54c7a1e1a5c9c5ecaf405",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2021-03-17",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/163907/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/91c49241c12c8f3c15c2a9910cf607d5",
+      "title": "0317(18조간)미래자동차산업과, 자동차-반도체 업계간 연대ㆍ협력을 통해 차량용반도체 수급위기 극복 가속화.pdf",
+      "sha256": "71ac88f1f1e919710fb27bbcdd2fe544197eae434cc9c74a78946efe957776e1",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2021-03-15",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/163901/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/8b0023fcad4abd3b3973be17168cac70",
+      "title": "210315(16조간) 산업부 2021년 2월 자동차산업 월간 동향.pdf",
+      "sha256": "2dc45d36d8e983026febdd273ee91cb15ad6137eaf64ad53375800496c72117d",
+      "observations": [
+        [
+          "2021-02-01",
+          260958,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2021-02-18",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/163819/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/d30ebebbfe099ad91b2fbdd35479f6f8",
+      "title": "0218(18석간 12시엠바고)자동차과, 대한민국 친환경차, 글로벌 자동차 산업의 리더로 도약!.pdf",
+      "sha256": "8ee7ab74e377d3a9fbd71a2edceeaa62a571c20e00a0cb2f5ac4f5d9e64f0d8d",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2021-02-15",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/163808/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/e708ff6ba3cf68914ee3f4c8ba94fe7c",
+      "title": "0210(16조간)자동차과, 2021년 1월 자동차산업 월간 동향.pdf",
+      "sha256": "45d0d33ffddf28a9f15c0bb58eb5fc96151204cb880c510682bf593729f995a6",
+      "observations": [
+        [
+          "2021-01-01",
+          314190,
+          "production_table"
+        ],
+        [
+          "2020-01-01",
+          251578,
+          "production_table"
+        ],
+        [
+          "2020-12-01",
+          296906,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2021-01-14",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/163715/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/81ebcf29d86323f70e8146336e0e9bd5",
+      "title": "0113(15조간)자동차과, 2020년 12월 및 연간 자동차산업 동향(최종본).pdf",
+      "sha256": "8c9f50ee8977a973e44b6398718a235f053f9e4892262f5e10daebe2e8d1589e",
+      "observations": [
+        [
+          "2020-12-01",
+          296895,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2020-12-14",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/163630/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/766f76817dfbd9b15a421c5819517f45",
+      "title": "1211(15조간)자동차과, 2020년 11월 자동차산업 월간 동향.pdf",
+      "sha256": "0ffbfa705e4daa443e581fa2d175b70cfc28b58fb232c597383599eb66f8d26b",
+      "observations": [
+        [
+          "2020-11-01",
+          324472,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2020-11-30",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/163575/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/24c3693cdf7bd4db29d34a801c72b6c5",
+      "title": "1126(28조간)미래자동차산업과, 산업부,『COP26 무공해자동차 전환 협의회(ZEVTC)』.pdf",
+      "sha256": "6c9d0af0ad635baf8eed14c22baafe0ee76e3570d599eec9a7a50dbc232d7cb7",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2020-11-25",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/163560/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/ffa4c69dc6b6d9aed1363b4378f58891",
+      "title": "1124(26조간)미래자동차산업과, 산업부, 미래형자동차 현장기술인력 양성 본격 추진.pdf",
+      "sha256": "fe47ed4c7d9dbdc685375c4d0c9efa47015c492b7f1c3cb4ab1394bdfb5bb4ab",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2020-11-16",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/163515/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/0c8e1f2239fbb28481367b8be85a3641",
+      "title": "1113(17조간)자동차항공과, 2020년 10월 자동차산업 월간 동향.pdf",
+      "sha256": "6aad201b6dd34792dffe035c9581928d29636f08c448c6c6b7128b5ad923589f",
+      "observations": [
+        [
+          "2020-10-01",
+          336279,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2020-10-19",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/163412/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/b78162a29c77bcfadcf70f610f154b8f",
+      "title": "'20년 9월 자동차산업 월간 동향.pdf",
+      "sha256": "d619d6d1cc93a974c9082f1e613377135a3ca8be5b19ac432748f19e3a9f5276",
+      "observations": [
+        [
+          "2020-09-01",
+          342489,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2020-09-18",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/163322/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/cdcf2204946812e3e8fbfe8a954adcb3",
+      "title": "0917(19조간)자동차항공과, 2020년 8월 자동차산업 월간 동향.pdf",
+      "sha256": "37964c7cba7e6dc57c4b256fa0e23a966df513d153fbeb131274674fded5d6a9",
+      "observations": [
+        [
+          "2020-08-01",
+          233357,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2020-09-16",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/163312/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/490ec1480e73c58553bcae04d47f6a18",
+      "title": "0915(16석간)자동차항공과, 수소차 핵심부품「수소연료전지」최초 수출.pdf",
+      "sha256": "8d852c3b5d7ca59573a99ad887e64a16166af61e7f88a6920bfcbed33ae9023e",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2020-08-18",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/163221/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/e654301da43661a7ea27a3d2a16ed289",
+      "title": "(보도자료)2020년 7월 자동차산업 동향.pdf",
+      "sha256": "6c38920ec0e2aeb82079da5c99e8e0d6d9498d261c2053a806fdb495fff5c406",
+      "observations": [
+        [
+          "2020-07-01",
+          345711,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2020-06-19",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/163053/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/a65e059f902ce5c2582030cce9d0d865",
+      "title": "(별첨)자동차 부품산업 취약기업 중점지원 대책.pdf",
+      "sha256": "5ef0b4098412454e39395a5dcf4bf66d19934992463427fa05cf68a81e4ae630",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2020-06-15",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/163031/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/81f20cb26871130a9740bac25e252543",
+      "title": "(보도참고자료)상생을 통한 자동차산업 살리기 현장간담회 개최 결과.pdf",
+      "sha256": "ef63bc1fc533e6dbb74021e61578cf322ff05b7b0d0bfbba31043a1cac99847c",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2020-06-11",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/163019/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/e42ec4ed8fc94671e4bcccaf2b137ec8",
+      "title": "0610 (12일조간) 자동차항공과, '20년 05월 자동차산업 동향.pdf",
+      "sha256": "02a06c30c0d93f6f60deee17a1b710e786a37db1bdce64929d2abf42a2adb3c4",
+      "observations": [
+        [
+          "2020-05-01",
+          231099,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2020-05-15",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/162948/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/dace2d09456262d6b783026b786c7ad7",
+      "title": "0514 (16일조간) 자동차항공과, 2020년 04월 자동차산업 동향.pdf",
+      "sha256": "7be9f0ca44e21b93ba831e81d8cfc4b64d197e29b9659a79643d33376f4e8bfc",
+      "observations": [
+        [
+          "2020-04-01",
+          289515,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2020-04-13",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/162838/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/e41b7a8cb2667c6c4d3093a4162a5999",
+      "title": "(보도자료)2020년 03월 자동차산업 동향_자동차항공과.pdf",
+      "sha256": "2a377201cc01fd1c647c91c98f01e8254a8f200d85be45dabb9ee3ef2cca126e",
+      "observations": [
+        [
+          "2020-03-01",
+          369165,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2020-03-13",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/162750/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/309285ed4be445bfc81b118ebf4b8f11",
+      "title": "0312 (14일조간) 자동차항공과, 2020년 02월 자동차산업 동향.pdf",
+      "sha256": "ef3b31749d4dbf0e8944580efec8b40e4326a9a8846bfc751cf802d9269359ae",
+      "observations": [
+        [
+          "2020-02-01",
+          189235,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2020-01-16",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/162583/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/082c630abcb5ae9e4d369f5c1696d1b3",
+      "title": "2019년 12월 자동차산업 동향_제출.pdf",
+      "sha256": "beca584908558a8bcb84480f75588ce34fbc350b5516e7a51296e47857f883dd",
+      "observations": [
+        [
+          "2019-12-01",
+          337504,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2019-12-13",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/162456/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/45b5eadaf7e918febce820b724811249",
+      "title": "1212 (14일조간) 자동차항공과, 2019년 11월 자동차산업 동향.pdf",
+      "sha256": "9e29d36d76175f800a5a49db17d89babe7ac9910c920b0c6118b69f3b453bdbf",
+      "observations": [
+        [
+          "2019-11-01",
+          346379,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2019-11-14",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/162324/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/9d41114f0feaf5f49d765eed1117dd4f",
+      "title": "1113 (15일조간) 자동차항공과, 2019년 10월 국내 자동차 산업동향.pdf",
+      "sha256": "75674f09d6a55c12914b9c6928c9ea8c599effd0f4f8210266f8764230e0a79e",
+      "observations": [
+        [
+          "2019-10-01",
+          351409,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2019-10-16",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/162196/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/69c732a87c441e205bcee70ea25133b3",
+      "title": "(안건) 미래자동차 산업 발전 전략(최종).pdf",
+      "sha256": "4fa60b45fce24fa76b65df28641a899344fb5407e3fd959c6d443e480d5efebd",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2019-10-10",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/162174/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/aa2952c8f295004dfe3bb0f5a2372c77",
+      "title": "(참고자료 11시30분엠바고)산업부장관, 자동차부품연구원 방문.pdf",
+      "sha256": "280daa6b05a2c8bbe6f02088081d639ac4094a7bf982b5f4ffd629d8d3143dd2",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2019-06-13",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/161783/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/084bc0acbdc41e49cd73ca0b84839a47",
+      "title": "★0613(14일_조간) 2019년 5월 국내 자동차산업 월간동향.pdf",
+      "sha256": "db1c6abefeed13b28080289bbdd7870e5559600c27635aa6f945e8f58441769d",
+      "observations": [
+        [
+          "2019-05-01",
+          366152,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2019-05-16",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/161678/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/c842c2a46f9c5347e9e6490f518f31bb",
+      "title": "(보도참고자료) 친환경차_2019년4월 국내 자동차산업 월간 동향rev.pdf",
+      "sha256": "e4bc46091aaf1e2f48531e5374a0de5397f1cb86c7966386fa2703ebe605da40",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2019-05-16",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/161677/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/c45cb609218c493166a43e16579c0349",
+      "title": "0516(17일 조간) 2019년4월 국내 자동차산업 월간 동향.pdf",
+      "sha256": "5cca119dfee11c63f4902f2d931ff72144e6fac6209ac33fef85a9542a6f593f",
+      "observations": [
+        [
+          "2019-04-01",
+          371930,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2019-04-17",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/161555/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/174cb31ed15d59d4f03978233e036b9c",
+      "title": "★0417(18일_조간)_자동차항공과,_2019년3월_국내_자동차산업_월간_동향(수정본2).pdf",
+      "sha256": "ef324aab0e3e02dd490c7077d0d0a290e8c115d2f685b2ec01d97d077a2159f5",
+      "observations": [
+        [
+          "2019-03-01",
+          343327,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2019-03-14",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/161426/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/f838143bd7e4851820aff76288380a34",
+      "title": "0314 (15일조간) 자동차항공과, 2019년2월 국내 자동차산업 월간 동향v2.pdf",
+      "sha256": "b4c98e268f74107f259fbf1d971e74113872e45b4fced4d94eddd471ccaefb6a",
+      "observations": [
+        [
+          "2019-02-01",
+          257276,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2019-02-19",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/161348/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/b769f244be8e10a9b7fa2229dea97595",
+      "title": "0218 (20일조간) 자동차항공과, 2019년1월 국내 자동차산업 월간 동향.pdf",
+      "sha256": "e8ec4076fbe3cc4e23a54175d00a90d512c6fd439d11eb0a1d0415cb55082828",
+      "observations": [
+        [
+          "2018-01-01",
+          322642,
+          "production_table"
+        ],
+        [
+          "2018-12-01",
+          356877,
+          "production_table"
+        ],
+        [
+          "2019-01-01",
+          354305,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2019-01-24",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/161291/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/b3e82e0688f474b59c928a17d5dd11dc",
+      "title": "(25일조간 15시30분 엠바고) 자동차항공과, 자동차산업 노사정 포럼.pdf",
+      "sha256": "83813d4c79a6897f397b1e4af7de023113e0699b8d80ee82b2ae6dc741551296",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2019-01-18",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/161266/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/e25ec27d3252c5283a70fec81edf048c",
+      "title": "0118 (19일조간) 자동차항공과, 2018년12월 자동차산업 동향.pdf",
+      "sha256": "4b7d367076dd6b4b8554058d551364268f52c623bb7eb39e5d90cc466fe47d20",
+      "observations": [
+        [
+          "2018-12-01",
+          356940,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2018-12-20",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/161189/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/1c2df25c0c3433f2e55fa6a1e3a91b1a",
+      "title": "(참고자료) 산업부, 자동차 부품업계 간담회 개최.pdf",
+      "sha256": "4695b0a627add1ab6b1774cc135291bb9ce3c0af51535020dfe63724781ea2e3",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2018-12-18",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/161175/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/cb9e921cd2dd2fe3bf455e6dac13ffc3",
+      "title": "(보도자료)자동차 부품산업 활력제고 방안 발표-최종.pdf",
+      "sha256": "1d1e4c880cfa44c60cf57751069b057f6777ea53b601cf89bd661056c889b664",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2018-12-13",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/161160/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/fe436e45a1319b74163ee87ddc910f43",
+      "title": "1212 (14일조간) 자동차항공과, 2018년 11월 자동차산업 동향.pdf",
+      "sha256": "2c63465136ccfdc8a3872be393ee6d16999d4d86ecc21a539b5d9c957e490b37",
+      "observations": [
+        [
+          "2018-11-01",
+          390573,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2018-11-14",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/161031/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/eb9cbfc5407001626ca49c8a47b6b989",
+      "title": "1114 (15일조간) 자동차항공과, 자동차산업발전위원회 개최.pdf",
+      "sha256": "2c1e6d385b19d81d4bbebc53c11a5c449ac9912a2691d877315d988491f116e5",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2018-11-12",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/161019/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/adcb7736e83b92542f63e8b8b51a272c",
+      "title": "(13일조간) 2018년 10월 자동차산업 동향.pdf",
+      "sha256": "7b2484d2e6be31b6e9c987d3c99e1b1e205830d100c3b3000bc6198a8c36df0c",
+      "observations": [
+        [
+          "2018-10-01",
+          381595,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2018-10-25",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/160960/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/33b1594a31693616dec0ce84af6e4d93",
+      "title": "1024 (26일조간) 자동차항공과, 2018년 3분기 국내 항공우주산업 수출동향.pdf",
+      "sha256": "79e34ddbb04d52d208f84267461cc88778f16941c8e36cdd165f539cab740311",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2018-10-12",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/160924/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/fe43f427934d3e995b81437578efe252",
+      "title": "1011 (13일조간) 자동차항공과, 2018년 9월 자동차산업 동향.pdf",
+      "sha256": "1aaaaf4eba382ccdc665437a71bef0239705afd22a7dab7c711f0682243c38af",
+      "observations": [
+        [
+          "2018-09-01",
+          291971,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2018-09-27",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/160874/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/73f6ccff6d1ea4722c9313f2dd73c080",
+      "title": "(28조간)산업부 장관, 자동차 부품업계 현장방문.pdf",
+      "sha256": "757307c4672c0afda2bcdaf42b85c0bc884c6740f11b9f0fd65b67c6bbb82c02",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2018-09-12",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/160833/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/928d6a8d521ab80ec595edee8f8a4279",
+      "title": "0911 (13일조간) 자동차항공과, 2018년 8월 자동차산업 동향.pdf",
+      "sha256": "b154738aec67a3959b584bca7347a7101f524194835910d7da690ba7de6b0075",
+      "observations": [
+        [
+          "2018-08-01",
+          296471,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2018-09-03",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/160797/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/9f5deb632cbe71857bd474123e351755",
+      "title": "0831 (3일 조간) 자동차항공과, 한일수출연계형 자동차부품 기술개발.pdf",
+      "sha256": "9d9de7657777ed67bfbbb482a8062e365759a26288878582f55447c98803a8f0",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2018-08-22",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/160771/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/67e6ea4ad1a8f4433b3e39647fb76e88",
+      "title": "0821 (23일조간) 자동차항공과, 자동차산업 지역협의체 출범.pdf",
+      "sha256": "88fabf72a442980775f8a87c77966fa9fda918e0d15a7650a83ea369c34dfc8e",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2018-08-14",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/160749/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/05e714cbac4da1052f5ef62b5a676736",
+      "title": "0813 (15일조간) 자동차항공과, 2018년 07월 자동차산업 동향.pdf",
+      "sha256": "62c1879de82ff6efea15a7055861cefdfd66648765285cddc0523bbe70c2f62d",
+      "observations": [
+        [
+          "2018-07-01",
+          306374,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2018-07-20",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/160682/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/07cc824882f4470f5c67678bf64749fb",
+      "title": "0719 (21일조간) 자동차항공과, 2018년 06월 자동차산업 동향.pdf",
+      "sha256": "1475ec6b6dcc0df74ea051a55fbcecf6059f48c423ea5251d77bbf8733b0f99f",
+      "observations": [
+        [
+          "2018-06-01",
+          336183,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2018-07-10",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/160635/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/e32596d0e948609f3a0578d3fdd4fb9a",
+      "title": "(참고자료)산업부장관 자동차업계 현장방문.pdf",
+      "sha256": "aaab5f5bd4300ae48f3f27589e892ebc5af68e58c8be101d38e06f1f9f078a8c",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2018-06-18",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/160544/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/a10f480128e6b77aad5b17a6bf38f438",
+      "title": "0615 (18일조간) 자동차항공과, 2018년 05월 자동차산업 월간 동향.pdf",
+      "sha256": "1af63d62464434abb46fabaf7d3fad6886d3bae00865251230ba8ad66620dd6a",
+      "observations": [
+        [
+          "2018-05-01",
+          351595,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2018-05-17",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/160455/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/d0178e92e6af73f260cb068068ca31f1",
+      "title": "0516 (18일조간) 자동차항공과, 2018년 04월 자동차산업 월간 동향.pdf",
+      "sha256": "71bb640e8b5173944f8b3b04b83171acc40c359313d0aae8ab1845047836584b",
+      "observations": [
+        [
+          "2018-04-01",
+          354156,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2018-04-12",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/160340/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/acb162b2669b9229394a270a7cb3de11",
+      "title": "0412 (13일조간) 자동차항공과, 2018년 03월 자동차산업 동향.pdf",
+      "sha256": "75a44215c02fe75473620a6052ad28f0ae86b1190f43a2b8c0255b7e0bc061db",
+      "observations": [
+        [
+          "2018-03-01",
+          363457,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2018-03-13",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/160246/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/86f34ff00da2fc6cd2df593df9d43dc8",
+      "title": "0313 (14일조간) 자동차항공과, 2월 자동차산업 동향.pdf",
+      "sha256": "90a7b0579234d96352c40768165b2a031ab010011c063a4ebbeb91fac79f50c6",
+      "observations": [
+        [
+          "2018-02-01",
+          276938,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2018-02-13",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/160162/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/498f325c6f722f68cec1dd2663586fa6",
+      "title": "2018년 01월 자동차산업 동향.pdf",
+      "sha256": "1ee19930a723e15742609b7fae1fce208bf25812959a82170055dc052b7a71f0",
+      "observations": [
+        [
+          "2017-01-01",
+          298042,
+          "production_table"
+        ],
+        [
+          "2017-12-01",
+          287311,
+          "production_table"
+        ],
+        [
+          "2018-01-01",
+          322408,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2018-01-16",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/160078/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/2465bc442b15289ac10a13fa13eaac04",
+      "title": "0116 (17일조간) 2017년 12월 자동차산업 동향.pdf",
+      "sha256": "adacc1a56cd5154e1c01605a23b018ccda160b563c4f1e6f128598f59d49673c",
+      "observations": [
+        [
+          "2017-12-01",
+          287311,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2017-12-27",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/160024/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/12120fa12429dd4ee6a76c7a8a2d2109",
+      "title": "1226 (27일석간) 자동차항공과, 항공산업, 업종간 융합으로 해외시장 진출에 박차.pdf",
+      "sha256": "733df3ab118aa12dd1491b53a0986054f1366452eb9c563fbb2b96fe5920072f",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2017-11-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/159805/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/1b3e9098c71dca37b5a69ebb963bead8",
+      "title": "1109 (10일조간) 자동차항공과, 2017년 10월 자동차산업 동향.pdf",
+      "sha256": "0512586bea640dd6d0256fabe7036889a1bb47fcea66ec7e2d24ea85b8cde464",
+      "observations": [
+        [
+          "2017-10-01",
+          280680,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2017-10-18",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/159722/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/1460c4a73b1d814490a45cd71aad73bb",
+      "title": "2017년 9월 자동차산업 동향(v.2).pdf",
+      "sha256": "243ba5062becdd693d28b772510633ee9288340832c6bd8368cfb693bdbabc80",
+      "observations": [
+        [
+          "2017-09-01",
+          356749,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2017-09-12",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/159607/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/2ddf7a7a2c7241dbe8f78cdbac2dfea1",
+      "title": "0912 (13일 조간) 2017년 8월 자동차산업 동향.pdf",
+      "sha256": "357934032072250afc62fb84ecad6bcf32257ccd119cc9ed214391b3d2aa2d07",
+      "observations": [
+        [
+          "2017-08-01",
+          274166,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2017-08-10",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/159531/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/00631858d068fafd3e071e10311d33ed",
+      "title": "2017년 7월 자동차산업 동향.pdf",
+      "sha256": "bc9336ed9bda7a4426718c872fecaf5f96a173f4c4191d9cc6c8e4ef58144827",
+      "observations": [
+        [
+          "2017-07-01",
+          371343,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2017-07-14",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/159473/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/19fb98cbb0ae275f15619078ab553f81",
+      "title": "0713 (14일조간) 자동차항공과, 2017년 6월 자동차산업 동향.pdf",
+      "sha256": "b55f9ac7aa11fed0a8a9e5cf4b14ff96c5f4599d0c8723933e1a2030391849ba",
+      "observations": [
+        [
+          "2017-06-01",
+          382807,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2017-06-13",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/159394/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/2c356cd05daca1f72105bab97ae2424c",
+      "title": "0613 (14일조간) 자동차항공과, 2017년 5울 자동차 산업 동향.pdf",
+      "sha256": "173e962cc9adaa7ff56aaa99a744a3cfd71bc4192fd0bf34508764cae544a106",
+      "observations": [
+        [
+          "2017-05-01",
+          356204,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2017-05-16",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/159339/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/b1c5d4d784afe956802410576fe14b28",
+      "title": "0516 (17일조간) 자동차항공과, 2017년 4월 자동차산업동향.pdf",
+      "sha256": "6962ad1a95093b668fff43cf126b2dfc3848d69a883afbf870564757f8fd4da8",
+      "observations": [
+        [
+          "2017-04-01",
+          382566,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2017-04-27",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/159308/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/effa77f64f8ffa9e4d77c6eb1acacdbd",
+      "title": "0428 (조간) 전기차 산업 발전협의회 개최(자동차항공과)-수정.pdf",
+      "sha256": "f1561fb135ee1ee80bffb54471b53cde36d740c3f66de5e455258b7ac92dfcdb",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2017-04-19",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/159274/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/c9965239a7b8b52ca16056f48686a62b",
+      "title": "0418 (19일석간) 자동차항공과, 4차 산업혁명 시대 항공산업 강국으로 도약.pdf",
+      "sha256": "dd5ce8dde9b950c7b6f8a09efaf817768cae1ebd5d3fb608eed92ac449961eb4",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2017-04-18",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/159271/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/2b906c329fefe18f5f5239b3bca11824",
+      "title": "0418 (19일조간) 자동차항공과, 3월 자동차산업 동향.pdf",
+      "sha256": "4de6f5f9247a3e8bf2094374ef66237f13c15c776d8be6efa6861f44ddd8b1dc",
+      "observations": [
+        [
+          "2017-03-01",
+          406897,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2017-03-15",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/159163/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/f7ee5b40a21db18e3249056e3afdfb83",
+      "title": "0315 (16일조간) 자동차항공과, 2017년 2월 자동차산업 동향.pdf",
+      "sha256": "dda636ed7e72c6b693b64ab90d8158daf26f9a3a4915c5231a3818d27d76acd2",
+      "observations": [
+        [
+          "2017-02-01",
+          336032,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2017-02-16",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/159078/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/d6f7b7d0952848a103f4cc594881fded",
+      "title": "2017년 1월 자동차산업 동향.pdf",
+      "sha256": "0a2b4120c55deaca7e092241ee0d03d41f3e0e7a7a8996cb93f5c32c242f665a",
+      "observations": [
+        [
+          "2016-01-01",
+          347375,
+          "production_table"
+        ],
+        [
+          "2016-12-01",
+          434850,
+          "production_table"
+        ],
+        [
+          "2017-01-01",
+          298041,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2017-02-07",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/159053/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/be051cd36a2a4faee5d058048e568e6c",
+      "title": "0208_(조간)_자동차항공과,_자동차산업발전위원회_출범-_(최종).pdf",
+      "sha256": "c3de134a2845f5f55d29c6eb8a47c4696aaa41215e78783cc7c10d14cf0fd044",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2017-01-10",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/158974/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/1691b0fd14cfd83065bcb5602d4afb16",
+      "title": "0110 (11일조간) 자동차항공과, 2016년 자동차산업 동향.pdf",
+      "sha256": "e4aa61bfc3090499b1c5e8b770de72de35b7856c7524657f0857f6ea65b8a862",
+      "observations": [
+        [
+          "2016-12-01",
+          434877,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/157859/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/5ecde6898809527cc6fcb349b0350760",
+      "title": "1215 (16일석간) 자동차항공과, 무인기산업 수요기반 활성화 세미나.pdf",
+      "sha256": "f194b8d91ecdc2ad050b6474e8d8d71806e1da287bb149e47806dfe1cbf3aa41",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/157809/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/6c6a4a6fe9dbb7a4e9dcc2a978609e27",
+      "title": "1205 (8일조간) 2015년 11월 자동차산업 동향.pdf",
+      "sha256": "01df7f6d350d01a29cb601fab069ebe51693c9ad01478415352653b8922f1b23",
+      "observations": [
+        [
+          "2015-11-01",
+          395004,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/157708/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/954981944ae94ccf423953b8852ca72d",
+      "title": "1106 (9일조간) 자동차항공과, 2015년 10월 자동차산업 동향.pdf",
+      "sha256": "6bb419be6a335943911335c43951c9bbb74a222e98fefd9839b96a48f2b50e6b",
+      "observations": [
+        [
+          "2015-10-01",
+          405167,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/157614/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/78cfd54a0a521a694ea50e1a46a7eefd",
+      "title": "1008 (9일조간) 자동차항공과, 2015년 9월 자동차 산업동향.pdf",
+      "sha256": "cdf7cbb9906625c529b6ac5bc12d92d55873e65255f3e98a0236bc8cca7b3bfa",
+      "observations": [
+        [
+          "2015-09-01",
+          333759,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/157512/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/7932bb1f67c8230a80fab523c5036cf6",
+      "title": "0904 (7일조간) 자동차항공과, '15년 9월 자동차산업 동향.pdf",
+      "sha256": "912f27039213e08270dc71c1b8b9f10024a5381ee57f502c297e1eb3ee796529",
+      "observations": [
+        [
+          "2015-08-01",
+          284803,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/157443/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/b775724e7499a29d60dcfd006d4e4774",
+      "title": "0807 (10일조간) 자동차항공과, '15년 7월 자동차산업 동향.pdf",
+      "sha256": "4a5b1e740e9344483cf02e9bfad4e686cfaa5c80e1d70c53ef653cd189fc7471",
+      "observations": [
+        [
+          "2015-07-01",
+          404770,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/157392/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/83def720eb81ebf513f619a672bb350b",
+      "title": "0715 (16일조간) 자동차항공과, 산업부장관, 울산지역 수출.제조현장 방문.pdf",
+      "sha256": "dcb0e0535d42aa2080aee3bd69ee600972c88482b1719b034cfad02a30cfdbd7",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/157375/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/ff60ca17bb9fc51e8e1f160fb2a46b20",
+      "title": "0710+(배포시)+자동차항공과,+산업부장관,수출기업(기아차)+현장+방문.pdf",
+      "sha256": "a287575a7423e64beb6ea2606e73729a86bf3c908f414592fa6456c6d100e6ef",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/157365/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/6a41f48bf60ed31f278e3fad0831a336",
+      "title": "0707 (보도자료) (7일 조간) 15년 상반기자동차산업 동향.pdf",
+      "sha256": "14b634d6986ef827a855a9be75e4a387ecf8c932cb9e3e6175cf6d19dfbfce6c",
+      "observations": [
+        [
+          "2015-06-01",
+          423719,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/157340/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/d4852b785ca74a061e0b54ccb810c951",
+      "title": "0624+(25일10시)+자동차항공과,+산업통상자원부-방위사업청,+소형헬기+개발사업+착수.pdf",
+      "sha256": "9f021ec60894a9ccfa0ded03e8fa6ae112a4a102bda6a824c6d25535418f5691",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/157288/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/0556cc0387e1de7ee231fb6f8813dfa5",
+      "title": "0605 (8일조간) 자동차항공과, '15년 5월 자동차산업 동향.pdf",
+      "sha256": "0fbe4f884e728f5bed9d420d9e0220abfb1db5224e4babffb2ce3771fa0106b2",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/157220/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/1dab570f4196e03b93faa9a3841dc194",
+      "title": "0511 (12일조간) 자동차항공과, 4월 자동차산업 동향.pdf",
+      "sha256": "47cc0f06aa5ffb4832473fa16df2145cb2afadbf87fe858938b4c7fb881447a6",
+      "observations": [
+        [
+          "2014-04-01",
+          433799,
+          "production_chart"
+        ],
+        [
+          "2014-05-01",
+          373470,
+          "production_chart"
+        ],
+        [
+          "2014-06-01",
+          380456,
+          "production_chart"
+        ],
+        [
+          "2014-07-01",
+          409263,
+          "production_chart"
+        ],
+        [
+          "2014-08-01",
+          273052,
+          "production_chart"
+        ],
+        [
+          "2014-09-01",
+          294160,
+          "production_chart"
+        ],
+        [
+          "2014-10-01",
+          364680,
+          "production_chart"
+        ],
+        [
+          "2014-11-01",
+          406490,
+          "production_chart"
+        ],
+        [
+          "2014-12-01",
+          434709,
+          "production_chart"
+        ],
+        [
+          "2015-01-01",
+          376018,
+          "production_chart"
+        ],
+        [
+          "2015-02-01",
+          317746,
+          "production_chart"
+        ],
+        [
+          "2015-03-01",
+          414313,
+          "production_chart"
+        ],
+        [
+          "2015-04-01",
+          424402,
+          "production_chart"
+        ],
+        [
+          "2015-04-01",
+          424402,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/157132/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/654c1aa30b7b009fad26abd146ac7bbd",
+      "title": "0407 (8일조간) 자동차항광과, '15년 3월 자동차산업 동향.pdf",
+      "sha256": "67278e1168d77b9afd58325a11bb16fb06f89c27b23673607cea846e3eab9d82",
+      "observations": [
+        [
+          "2015-03-01",
+          414352,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/157114/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/dca1d266284395935f49fdf979f5705a",
+      "title": "0331 (1일조간) 자동차항공과, 자율주행자동차산업 발전 심포지엄 개최.pdf",
+      "sha256": "41fc5d09c83b3e129bca9a451263f270ac2897e293c963d685630ce8fcdfcfbd",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/157048/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/c306eec26a8a2dc000316ea751bf9ea7",
+      "title": "'15년2월 자동차산업동향.pdf",
+      "sha256": "31a698e59fdc3eaafe5ec770a8d7f878e4169b80f5d9e430c5370f424a8adbdb",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/157045/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/2a752b80d0afbd6fb8ac8f273a2c78b3",
+      "title": "0306 (9일조간) 자동차항공과, 2015년 2월 자동차산업 동향.pdf",
+      "sha256": "1810540c8ffe90e1a2c2704c656126ca63fe2eccf1524ccc15c43e89fcd864e3",
+      "observations": [
+        [
+          "2014-01-01",
+          368228,
+          "production_chart"
+        ],
+        [
+          "2014-02-01",
+          361115,
+          "production_chart"
+        ],
+        [
+          "2014-03-01",
+          425510,
+          "production_chart"
+        ],
+        [
+          "2014-04-01",
+          433799,
+          "production_chart"
+        ],
+        [
+          "2014-05-01",
+          373470,
+          "production_chart"
+        ],
+        [
+          "2014-06-01",
+          380420,
+          "production_chart"
+        ],
+        [
+          "2014-07-01",
+          409252,
+          "production_chart"
+        ],
+        [
+          "2014-08-01",
+          273037,
+          "production_chart"
+        ],
+        [
+          "2014-09-01",
+          294160,
+          "production_chart"
+        ],
+        [
+          "2014-10-01",
+          364680,
+          "production_chart"
+        ],
+        [
+          "2014-11-01",
+          406490,
+          "production_chart"
+        ],
+        [
+          "2014-12-01",
+          434709,
+          "production_chart"
+        ],
+        [
+          "2015-01-01",
+          376018,
+          "production_chart"
+        ],
+        [
+          "2015-02-01",
+          317746,
+          "production_chart"
+        ],
+        [
+          "2015-02-01",
+          317746,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/156974/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/75840e53b1dc86e5083354e4bfe0feb8",
+      "title": "'15.1월 자동차산업동향.pdf",
+      "sha256": "bb52a991d6643a640ab3ecc8d60a0d67e46d6ffe5de44912c73aa2c043f9decf",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/156969/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/8388500e69bbdfcc3fb4a84dd77def6e",
+      "title": "0206+(9일조간)+자동차항공과,'15년+1월+자동차산업+동향.pdf",
+      "sha256": "c7bbb281c342d85b9d92436241109dec66cd60b1f463e6d059ccf3724525f82a",
+      "observations": [
+        [
+          "2014-01-01",
+          368228,
+          "production_chart"
+        ],
+        [
+          "2014-02-01",
+          359148,
+          "production_chart"
+        ],
+        [
+          "2014-03-01",
+          425510,
+          "production_chart"
+        ],
+        [
+          "2014-04-01",
+          433799,
+          "production_chart"
+        ],
+        [
+          "2014-05-01",
+          373470,
+          "production_chart"
+        ],
+        [
+          "2014-06-01",
+          380456,
+          "production_chart"
+        ],
+        [
+          "2014-07-01",
+          409283,
+          "production_chart"
+        ],
+        [
+          "2014-08-01",
+          272744,
+          "production_chart"
+        ],
+        [
+          "2014-09-01",
+          294160,
+          "production_chart"
+        ],
+        [
+          "2014-10-01",
+          364680,
+          "production_chart"
+        ],
+        [
+          "2014-11-01",
+          406491,
+          "production_chart"
+        ],
+        [
+          "2014-12-01",
+          434709,
+          "production_chart"
+        ],
+        [
+          "2015-01-01",
+          376017,
+          "production_chart"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/156903/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/a3ce2ee7e6b69a16e85a4a943da1abf9",
+      "title": "0109 (12일조간) 자동차항공과, 2014년 12월 자동차산업 동향.pdf",
+      "sha256": "c404354ce6e1d82ad080cf6a33a71b0f01049523c5b846da3b11c5695617620a",
+      "observations": [
+        [
+          "2013-10-01",
+          425577,
+          "production_chart"
+        ],
+        [
+          "2013-11-01",
+          426834,
+          "production_chart"
+        ],
+        [
+          "2013-12-01",
+          419360,
+          "production_chart"
+        ],
+        [
+          "2014-01-01",
+          368243,
+          "production_chart"
+        ],
+        [
+          "2014-02-01",
+          359148,
+          "production_chart"
+        ],
+        [
+          "2014-03-01",
+          425510,
+          "production_chart"
+        ],
+        [
+          "2014-04-01",
+          433799,
+          "production_chart"
+        ],
+        [
+          "2014-05-01",
+          373470,
+          "production_chart"
+        ],
+        [
+          "2014-06-01",
+          380456,
+          "production_chart"
+        ],
+        [
+          "2014-07-01",
+          409283,
+          "production_chart"
+        ],
+        [
+          "2014-08-01",
+          272744,
+          "production_chart"
+        ],
+        [
+          "2014-09-01",
+          294160,
+          "production_chart"
+        ],
+        [
+          "2014-10-01",
+          364680,
+          "production_chart"
+        ],
+        [
+          "2014-11-01",
+          406491,
+          "production_chart"
+        ],
+        [
+          "2014-12-01",
+          434500,
+          "production_chart"
+        ],
+        [
+          "2014-12-01",
+          434500,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/156794/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/d4aab8639d5434ba99ef644873594d9c",
+      "title": "1205 (8일조간) 자동차항공과, 2014년 11월 자동차산업 동향.pdf",
+      "sha256": "c75a5d18362bab8c4b6b20f8d2d3a2105d1395dbe5b6b3ab09ada366f7207fcf",
+      "observations": [
+        [
+          "2013-08-01",
+          342624,
+          "production_chart"
+        ],
+        [
+          "2013-09-01",
+          287978,
+          "production_chart"
+        ],
+        [
+          "2013-10-01",
+          425577,
+          "production_chart"
+        ],
+        [
+          "2013-11-01",
+          426834,
+          "production_chart"
+        ],
+        [
+          "2013-12-01",
+          419360,
+          "production_chart"
+        ],
+        [
+          "2014-01-01",
+          368243,
+          "production_chart"
+        ],
+        [
+          "2014-02-01",
+          359148,
+          "production_chart"
+        ],
+        [
+          "2014-03-01",
+          425510,
+          "production_chart"
+        ],
+        [
+          "2014-04-01",
+          433799,
+          "production_chart"
+        ],
+        [
+          "2014-05-01",
+          373470,
+          "production_chart"
+        ],
+        [
+          "2014-06-01",
+          380456,
+          "production_chart"
+        ],
+        [
+          "2014-07-01",
+          409283,
+          "production_chart"
+        ],
+        [
+          "2014-08-01",
+          272744,
+          "production_chart"
+        ],
+        [
+          "2014-09-01",
+          294160,
+          "production_chart"
+        ],
+        [
+          "2014-10-01",
+          364680,
+          "production_chart"
+        ],
+        [
+          "2014-11-01",
+          406401,
+          "production_chart"
+        ],
+        [
+          "2014-11-01",
+          406491,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/156687/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/9399596b028895589f7d080cf9a91599",
+      "title": "1107 (10일조간) 자동차항공과, 2014년 10월 자동차산업 동향.pdf",
+      "sha256": "6dc6e1cd5f91a978efbd0e08f2434c4dde7f2abe759598e4059011976cf1b0e0",
+      "observations": [
+        [
+          "2013-08-01",
+          342624,
+          "production_chart"
+        ],
+        [
+          "2013-09-01",
+          287978,
+          "production_chart"
+        ],
+        [
+          "2013-10-01",
+          425577,
+          "production_chart"
+        ],
+        [
+          "2013-11-01",
+          426834,
+          "production_chart"
+        ],
+        [
+          "2013-12-01",
+          419360,
+          "production_chart"
+        ],
+        [
+          "2014-01-01",
+          368243,
+          "production_chart"
+        ],
+        [
+          "2014-02-01",
+          359148,
+          "production_chart"
+        ],
+        [
+          "2014-03-01",
+          425510,
+          "production_chart"
+        ],
+        [
+          "2014-04-01",
+          433799,
+          "production_chart"
+        ],
+        [
+          "2014-05-01",
+          373470,
+          "production_chart"
+        ],
+        [
+          "2014-06-01",
+          380456,
+          "production_chart"
+        ],
+        [
+          "2014-07-01",
+          409283,
+          "production_chart"
+        ],
+        [
+          "2014-08-01",
+          272744,
+          "production_chart"
+        ],
+        [
+          "2014-09-01",
+          294160,
+          "production_chart"
+        ],
+        [
+          "2014-10-01",
+          364680,
+          "production_chart"
+        ],
+        [
+          "2014-10-01",
+          364680,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/79375/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/e262ed5668fad63ef7643ffbb36b9af0",
+      "title": "(참고자료)자동차항공과,2014년 9월 자동차산업동향.pdf",
+      "sha256": "cc75370b8aaac406ca2db650320e8b86ff4773bc04e0b4a1534ffdbef2108dea",
+      "observations": [
+        [
+          "2013-08-01",
+          342624,
+          "production_chart"
+        ],
+        [
+          "2013-09-01",
+          287978,
+          "production_chart"
+        ],
+        [
+          "2013-10-01",
+          425577,
+          "production_chart"
+        ],
+        [
+          "2013-11-01",
+          426834,
+          "production_chart"
+        ],
+        [
+          "2013-12-01",
+          419360,
+          "production_chart"
+        ],
+        [
+          "2014-01-01",
+          368243,
+          "production_chart"
+        ],
+        [
+          "2014-02-01",
+          359148,
+          "production_chart"
+        ],
+        [
+          "2014-03-01",
+          425510,
+          "production_chart"
+        ],
+        [
+          "2014-04-01",
+          433799,
+          "production_chart"
+        ],
+        [
+          "2014-05-01",
+          373470,
+          "production_chart"
+        ],
+        [
+          "2014-06-01",
+          380456,
+          "production_chart"
+        ],
+        [
+          "2014-07-01",
+          409283,
+          "production_chart"
+        ],
+        [
+          "2014-08-01",
+          272744,
+          "production_chart"
+        ],
+        [
+          "2014-09-01",
+          294160,
+          "production_chart"
+        ],
+        [
+          "2014-09-01",
+          294160,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/79279/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/9966968cd2b99af29cbcf41841fcc3aa",
+      "title": "0904 (참고자료) 자동차항공과, 2014년 8월 자동차산업 동향.pdf",
+      "sha256": "660a875b34a75d3dcc8845f73dc798023d5368a55204a0ffdc41067b9c1dc51b",
+      "observations": [
+        [
+          "2013-07-01",
+          334139,
+          "production_chart"
+        ],
+        [
+          "2013-08-01",
+          342624,
+          "production_chart"
+        ],
+        [
+          "2013-09-01",
+          287978,
+          "production_chart"
+        ],
+        [
+          "2013-10-01",
+          425577,
+          "production_chart"
+        ],
+        [
+          "2013-11-01",
+          426834,
+          "production_chart"
+        ],
+        [
+          "2013-12-01",
+          419360,
+          "production_chart"
+        ],
+        [
+          "2014-01-01",
+          368243,
+          "production_chart"
+        ],
+        [
+          "2014-02-01",
+          359148,
+          "production_chart"
+        ],
+        [
+          "2014-03-01",
+          425510,
+          "production_chart"
+        ],
+        [
+          "2014-04-01",
+          433799,
+          "production_chart"
+        ],
+        [
+          "2014-05-01",
+          373470,
+          "production_chart"
+        ],
+        [
+          "2014-06-01",
+          380456,
+          "production_chart"
+        ],
+        [
+          "2014-07-01",
+          409283,
+          "production_chart"
+        ],
+        [
+          "2014-08-01",
+          272744,
+          "production_chart"
+        ],
+        [
+          "2014-08-01",
+          272744,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/79212/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/fae74bf9829ddff952f24d41ae1276c4",
+      "title": "0807 (8일조간) 자동차항공과, 2014년 7월 자동차산업 동향.pdf",
+      "sha256": "30dd3d56f11f976895f49a555e1fee439543dce0ad0465db24604afd2837e68f",
+      "observations": [
+        [
+          "2013-07-01",
+          334139,
+          "production_chart"
+        ],
+        [
+          "2013-08-01",
+          342624,
+          "production_chart"
+        ],
+        [
+          "2013-09-01",
+          287978,
+          "production_chart"
+        ],
+        [
+          "2013-10-01",
+          425577,
+          "production_chart"
+        ],
+        [
+          "2013-11-01",
+          426834,
+          "production_chart"
+        ],
+        [
+          "2013-12-01",
+          419360,
+          "production_chart"
+        ],
+        [
+          "2014-01-01",
+          368243,
+          "production_chart"
+        ],
+        [
+          "2014-02-01",
+          359148,
+          "production_chart"
+        ],
+        [
+          "2014-03-01",
+          425510,
+          "production_chart"
+        ],
+        [
+          "2014-04-01",
+          433799,
+          "production_chart"
+        ],
+        [
+          "2014-05-01",
+          373470,
+          "production_chart"
+        ],
+        [
+          "2014-06-01",
+          380456,
+          "production_chart"
+        ],
+        [
+          "2014-07-01",
+          409283,
+          "production_chart"
+        ],
+        [
+          "2014-07-01",
+          409283,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-12-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/78725/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/00caeba2c07d46dc70ecc2a731b5ff3b",
+      "title": "0217 (참고자료) 자동차항공과, 산업부 장관 쌍용차 방문.pdf",
+      "sha256": "0efbb2a0e0d3bff178e86fefaa12a3299ba5a1bfb0d135fc663f8df7318194b4",
+      "observations": [],
+      "error": ""
+    },
+    {
+      "published": "2016-12-08",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/158873/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/2698d6de72530ee4e38d4ea4874aac65",
+      "title": "2016년 11월 자동차산업 동향(최종).pdf",
+      "sha256": "be941247315a4cac7e15f3bfeb1b6058e55ac316c82e537f922c29ceca882667",
+      "observations": [
+        [
+          "2016-11-01",
+          415106,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-11-10",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/158781/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/62af4359051cd0a399f1b33906cd8b36",
+      "title": "1110 (11일조간) 자동차항공과, 2016년 10월 자동차산업 동향(수정본).pdf",
+      "sha256": "65cbc0e1836092f4ed1ada8e26de8d241d75a62fbb652cec47cc4716b2387fbc",
+      "observations": [
+        [
+          "2016-10-01",
+          347470,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-09-13",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/158574/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/43908429c1c01799deb3a3af7cf9f394",
+      "title": "2016년 8월 자동차산업 동향.pdf",
+      "sha256": "8985e380f8628410e2edcb8ab5d16973082612c26485a233c7ca99685cbf154e",
+      "observations": [
+        [
+          "2016-08-01",
+          217097,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-08-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/158477/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/123889150c8c968105459b5156792ca4",
+      "title": "0809 (10일조간) 자동차항공과, 2016년 7월 자동차산업 동향.pdf",
+      "sha256": "ca3eb3d6398827061ddba3f5f2728e51a02bfe09471be3e0816293cafe2cde48",
+      "observations": [
+        [
+          "2016-07-01",
+          361158,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-06-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/158297/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/4e5477918bc7e73dce8eb9016defedc3",
+      "title": "0608(10일 조간) 자동차항공과, 16년 5월 자동차 산업동향.pdf",
+      "sha256": "917ff3eb8a739ce60060242df869afef55753f59fc5b5b37c234e36447617bd6",
+      "observations": [
+        [
+          "2016-05-01",
+          361492,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-05-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/158212/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/8fc01a6c746153f79a2775586876d46a",
+      "title": "0509(9일 조간) 자동차항공과, 2016년 4월 자동차산업 동향.pdf",
+      "sha256": "51e36f4572be9a948a8b9cd372fd14f773e37693ff857ed4825f3d6e3423b4bf",
+      "observations": [
+        [
+          "2016-04-01",
+          368607,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-04-11",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/158140/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/0dae4729831ed6905c4eac19f9b5adfc",
+      "title": "0411(11일 조간) 자동차항공과, 2016년 3월 자동차산업 동향.pdf",
+      "sha256": "ace64b1ffcdb324c6615d2898256be457f1828e5571e8ed1705047257bfaa646",
+      "observations": [
+        [
+          "2016-03-01",
+          415175,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-03-09",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/158055/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/2d8a2d56f0c87f618d89e7c2f78ad768",
+      "title": "0309 (10일조간) 자동차항공과, 2016년2월 자동차산업 동향.pdf",
+      "sha256": "96b5fbe9864dbdebace44fbd25396afab9c12d81e2780ed69fa91b2b26a5beb6",
+      "observations": [
+        [
+          "2016-02-01",
+          305976,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-02-11",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/157985/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/0b903987d31a8d22da64ea3a34ed3815",
+      "title": "0210 (11일조간) 자동차항공과, 2016년 1월 자동차 산업동향.pdf",
+      "sha256": "19772052254b8390b07c10596e051d1d6e99eca56f83e544eee6ea548319845b",
+      "observations": [
+        [
+          "2015-01-01",
+          376018,
+          "production_table"
+        ],
+        [
+          "2015-12-01",
+          410580,
+          "production_table"
+        ],
+        [
+          "2016-01-01",
+          347375,
+          "production_table"
+        ]
+      ],
+      "error": ""
+    },
+    {
+      "published": "2016-01-11",
+      "page_url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/157915/view",
+      "pdf_url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/4cbc327cb72043dc5caa98546cf9eb43",
+      "title": "(보도자료) 2015년 자동차산업.pdf",
+      "sha256": "328eb3b8c29c61ef092d74e71fac89bfe2b974303d587ea4d2b3547d5393506a",
+      "observations": [
+        [
+          "2015-12-01",
+          410580,
+          "production_single_month_table"
+        ]
+      ],
+      "error": ""
+    }
+  ]
+}

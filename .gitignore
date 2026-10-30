@@ -1,0 +1,21 @@
+# secrets / local env
+.env
+.env.*
+demo/.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# application essays and personal portfolio are not published
+docs/
+portfolio/out/
+
+# heavy or regenerable artifacts (summary, charts, screenshots are kept)
+data/raw/auto_sources/
+data/raw/*.log
+demo/artifacts/*.parquet
+demo/artifacts/transcripts/
+demo/artifacts/*.log
+demo/artifacts/decisions.jsonl
+demo/artifacts/confirmed_fcst_*.csv
+demo/artifacts_trial_backtest.log
