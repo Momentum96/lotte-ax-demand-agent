@@ -1,0 +1,22 @@
+[project]
+name = "lotte-demand-demo"
+version = "0.1.0"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "pandas>=2.2",
+  "numpy>=1.26,<2.3",
+  "scikit-learn>=1.5",
+  "lightgbm>=4.3",
+  "statsforecast>=2.0",
+  "chronos-forecasting>=1.4",
+  "torch>=2.4",
+  "matplotlib>=3.9",
+  "fastapi>=0.115",
+  "uvicorn>=0.30",
+  "pydantic>=2.8",
+  "python-dotenv>=1.0",
+  "requests>=2.32",
+  "anthropic>=0.40",
+  "openai>=1.50",
+  "pyarrow>=17",
+]

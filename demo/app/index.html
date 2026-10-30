@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><title>ABS/PC 수요예측 에이전트 · 공개데이터 데모</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+:root{--red:#EC1B23;--ink:#1b1b1f;--sub:#5f6368;--line:#e3e5e8;--bg:#f6f7f9;--card:#fff;--ok:#1e8e3e;--warn:#e37400}
+*{box-sizing:border-box}body{margin:0;font-family:"Pretendard","Apple SD Gothic Neo","Noto Sans KR",-apple-system,sans-serif;background:var(--bg);color:var(--ink);font-size:14px}
+header{background:#111;color:#fff;padding:14px 28px;display:flex;align-items:center;gap:14px}
+header .dot{width:12px;height:12px;background:var(--red);border-radius:50%}
+header h1{font-size:16px;margin:0;font-weight:700}header .meta{margin-left:auto;color:#bbb;font-size:12px}
+main{max-width:1280px;margin:0 auto;padding:20px 28px;display:grid;gap:18px}
+.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.kpi .l{color:var(--sub);font-size:12px}.kpi .v{font-size:24px;font-weight:700;margin-top:4px}.kpi .v.red{color:var(--red)}.kpi .s{font-size:11px;color:var(--sub);margin-top:2px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+.card h2{font-size:14px;margin:0 0 10px;display:flex;align-items:center;gap:8px}.card h2 .tag{font-size:11px;color:var(--sub);font-weight:500;background:#f1f3f4;padding:2px 8px;border-radius:999px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}.grid3{display:grid;grid-template-columns:2fr 1fr;gap:18px}
+img.chart{width:100%;border:1px solid var(--line);border-radius:6px}
+table{width:100%;border-collapse:collapse;font-size:12.5px}th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}th{color:var(--sub);font-weight:600;background:#fafbfc}td:first-child,th:first-child{text-align:left}
+.pill{display:inline-block;padding:1px 7px;border-radius:999px;font-size:11px;background:#f1f3f4;color:var(--sub)}.pill.warn{background:#fff3e0;color:var(--warn)}.pill.ok{background:#e6f4ea;color:var(--ok)}.pill.red{background:#fde8e8;color:var(--red)}
+button{font:inherit;border:1px solid var(--line);background:#fff;border-radius:7px;padding:6px 11px;cursor:pointer}button.primary{background:var(--red);color:#fff;border-color:var(--red)}button.sm{padding:3px 8px;font-size:11.5px}button:disabled{opacity:.5;cursor:default}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.transcript{display:grid;gap:6px;max-height:1500px;overflow:auto}
+.final table{margin:6px 0;font-size:12px}.final th,.final td{padding:4px 8px}
+.step{border:1px solid var(--line);border-radius:8px;padding:8px 10px;background:#fafbfc}.step .n{font-weight:600;font-size:12px}.step pre{margin:6px 0 0;font-size:11px;white-space:pre-wrap;color:#333;max-height:160px;overflow:auto}
+.final{border-left:3px solid var(--red);padding:10px 14px;background:#fff;line-height:1.55}.final h2{font-size:15px;margin:0 0 8px}.final ul{margin:4px 0 8px 18px;padding:0}.final li{margin:2px 0}
+.proposal{border:1px dashed var(--red);border-radius:8px;padding:10px 12px;background:#fff8f8;margin-top:8px}
+.muted{color:var(--sub);font-size:12px}input[type=number]{font:inherit;padding:5px 8px;border:1px solid var(--line);border-radius:6px;width:110px}
+.spinner{display:inline-block;width:12px;height:12px;border:2px solid #ddd;border-top-color:var(--red);border-radius:50%;animation:s .8s linear infinite;vertical-align:middle}@keyframes s{to{transform:rotate(360deg)}}
+</style></head><body>
+<header><div class="dot"></div><h1>첨단소재(ABS·PC) End-Customer 수요예측 에이전트</h1><span class="meta" id="meta">공개 데이터 데모 · 관세청/UN Comtrade 수출 = 출하 대리변수 · 국가 = 고객군</span></header>
+<main>
+<section class="kpis" id="kpis"></section>
+<section class="grid2">
+  <div class="card"><h2>모델별 백테스트 정확도 <span class="tag">보고 창, h=1~6, 전체 셀</span></h2><img class="chart" src="/charts/wape_by_model.png"></div>
+  <div class="card"><h2>예측 지평별 정확도 <span class="tag">WAPE</span></h2><img class="chart" src="/charts/wape_by_horizon.png"></div>
+</section>
+<section class="grid2" id="seriesCharts"></section>
+<section class="grid3">
+  <div class="card"><h2>이번 달 예측 <span class="tag" id="fcTag"></span><span style="margin-left:auto" class="row"><label class="muted">제품 <select id="prodSel"><option value="">전체</option><option>ABS</option><option>PC</option></select></label><label class="muted">지평 <select id="hSel"><option value="1">h=1</option><option value="2">h=2</option><option value="3">h=3</option><option value="6">h=6</option></select></label></span></h2>
+    <div style="max-height:360px;overflow:auto"><table id="fcTable"></table></div></div>
+  <div class="card"><h2>이상 징후 <span class="tag">잔차 z-score · 외부변수 3개월 변화</span></h2><div id="anom" class="muted">불러오는 중…</div></div>
+</section>
+<section class="card"><h2>영업 FCST 대비 편차 셀 <span class="tag" id="cmpTag"></span><span class="muted" style="margin-left:auto">※ 데모의 영업 FCST는 합성값(최근 3개월 평균 × 1.08)</span></h2>
+  <div style="max-height:300px;overflow:auto"><table id="cmpTable"></table></div><div id="proposal"></div></section>
+<section class="card"><h2>AI 에이전트 월간 사이클 <span class="tag">수집 → 예측 → 비교 → 이상감지 → 설명·제안 → 플래너 확인 → 확정·전달</span>
+  <span class="row" style="margin-left:auto"><select id="backend"><option value="auto">자동(키 있으면 LLM)</option><option value="openai">OpenAI</option><option value="anthropic">Anthropic</option><option value="scripted">scripted</option></select><button class="primary" id="runCycle">사이클 실행</button><button id="handoff">확정 FCST 전달(handoff)</button></span></h2>
+  <div class="grid2"><div><div class="muted" style="margin-bottom:6px">도구 호출 기록</div><div class="transcript" id="transcript"><div class="muted">아직 실행 전</div></div></div><div><div class="muted" style="margin-bottom:6px">에이전트 최종 보고</div><div class="final" id="final"><span class="muted">아직 실행 전</span></div></div></div>
+  <div class="muted" id="decisions" style="margin-top:10px"></div></section>
+</main>
+<script>
+const $=s=>document.querySelector(s);const fmt=n=>n==null?'-':Number(n).toLocaleString('ko-KR',{maximumFractionDigits:0});const pct=x=>(x*100).toFixed(1)+'%';
+let FC=null,SUM=null;
+function mdTable(block){const rows=block.trim().split('\n').filter(r=>!/^\|?\s*:?-{2,}/.test(r.replace(/\|/g,'').trim()[0]==='-'?r:'x')||!/^[\s|:-]+$/.test(r));const cells=r=>r.replace(/^\||\|$/g,'').split('|').map(c=>c.trim());const [h,...b]=rows.filter(r=>!/^[\s|:-]+$/.test(r));return '<table><tr>'+cells(h).map(c=>'<th>'+c+'</th>').join('')+'</tr>'+b.map(r=>'<tr>'+cells(r).map(c=>'<td>'+c+'</td>').join('')+'</tr>').join('')+'</table>';}
+function md(t){t=t.replace(/&/g,'&amp;').replace(/</g,'&lt;');t=t.replace(/^# (.*)$/gm,'<h2>$1</h2>');t=t.replace(/(?:^\|.*\|\s*$\n?)+/gm,m=>mdTable(m));t=t.replace(/^## (.*)$/gm,'<h2>$1</h2>').replace(/^### (.*)$/gm,'<h3>$1</h3>').replace(/\*\*(.+?)\*\*/g,'<b>$1</b>');t=t.replace(/^(?:- .*(?:\n|$))+/gm,m=>'<ul>'+m.trim().split('\n').map(l=>'<li>'+l.replace(/^- /,'')+'</li>').join('')+'</ul>');return t.replace(/\n{2,}/g,'<br><br>').replace(/\n/g,'<br>');}
+async function j(u,o){const r=await fetch(u,o);if(!r.ok)throw new Error(await r.text());return r.json();}
+async function loadSummary(){SUM=await j('/api/summary');const bm=Object.fromEntries(SUM.report_by_model.map(r=>[r.model,r]));const w=Object.fromEntries(SUM.report_by_model_world_totals.map(r=>[r.model,r]));const sel=bm.selected,nav=bm.seasonal_naive;
+ $('#kpis').innerHTML=[['선택 모델 WAPE (전체 셀)',pct(sel.wape),'보고 창 '+SUM.origins.report[0].slice(0,7)+'~'+SUM.origins.report.at(-1).slice(0,7),'red'],['계절 naive WAPE',pct(nav.wape),'기준선'],['오차 개선',((1-sel.wape/nav.wape)*100).toFixed(0)+'%','naive 대비 상대 감소','red'],['월드 총량 WAPE',pct(w.selected.wape),'naive '+pct(w.seasonal_naive.wape)],['패널',SUM.panel.series+' 시계열',SUM.panel.first_month.slice(0,7)+'~'+SUM.panel.last_month.slice(0,7)+' · 외부변수 '+SUM.exog.length+'개']].map(k=>'<div class="kpi"><div class="l">'+k[0]+'</div><div class="v '+(k[3]||'')+'">'+k[1]+'</div><div class="s">'+k[2]+'</div></div>').join('');
+ $('#seriesCharts').innerHTML=['ABS_WLD','PC_WLD'].map(n=>'<div class="card"><h2>'+n.replace('_',' → ')+' 실적 vs 1개월 선행 예측 <span class="tag">최근 60개월</span></h2><img class="chart" src="/charts/series_'+n+'.png"></div>').join('');
+ $('#decisions').textContent='모델 선택 결과: '+Object.entries(SUM.best_model_counts).map(([k,v])=>k+' '+v).join(' · ');}
+async function loadForecast(){FC=await j('/api/forecast');$('#fcTag').textContent='기준월 '+FC.origin+' · '+FC.reconciled;renderFc();}
+function renderFc(){const p=$('#prodSel').value,h=+$('#hSel').value;const rows=FC.rows.filter(r=>r.h===h&&(!p||r.unique_id.startsWith(p+'|')));$('#fcTable').innerHTML='<tr><th>셀</th><th>대상월</th><th>예측(t)</th><th>P10</th><th>P90</th><th>모델</th></tr>'+rows.map(r=>'<tr><td>'+r.label+'</td><td>'+r.target_month+'</td><td><b>'+fmt(r.forecast_t)+'</b></td><td>'+fmt(r.p10_t)+'</td><td>'+fmt(r.p90_t)+'</td><td><span class="pill">'+r.model+'</span></td></tr>').join('');}
+async function loadCompare(){const c=await j('/api/compare');$('#cmpTag').textContent=c.n_flagged+'/'+c.n_cells+'개 셀 편차 ≥ '+c.threshold_pct+'%';$('#cmpTable').innerHTML='<tr><th>셀</th><th>대상월</th><th>AI 예측(t)</th><th>영업 FCST(t)</th><th>편차</th><th></th></tr>'+c.flagged.map(r=>'<tr><td>'+r.label+'</td><td>'+r.target_month+' (h='+r.h+')</td><td>'+fmt(r.ai_forecast_t)+'</td><td>'+fmt(r.sales_fcst_t)+'</td><td><span class="pill '+(Math.abs(r.diff_pct)>=30?'red':'warn')+'">'+(r.diff_pct>0?'+':'')+r.diff_pct.toFixed(1)+'%</span></td><td><button class="sm" onclick="propose(\''+r.unique_id+'\','+r.h+')">설명·제안</button></td></tr>').join('');}
+async function loadAnom(){const a=await j('/api/anomalies');const s=a.series_surprises.filter(x=>x.flag),d=a.driver_shifts.filter(x=>x.flag);$('#anom').innerHTML='<div class="muted">기준 '+a.asof+'</div>'+(s.length?'<table><tr><th>시계열</th><th>실적</th><th>기대</th><th>z</th></tr>'+s.map(x=>'<tr><td>'+x.label+'</td><td>'+fmt(x.actual_t)+'</td><td>'+fmt(x.expected_t)+'</td><td><span class="pill red">'+x.z+'</span></td></tr>').join('')+'</table>':'<div class="muted" style="margin:6px 0">시계열 서프라이즈 없음(|z|&lt;2)</div>')+(d.length?'<table style="margin-top:8px"><tr><th>외부변수</th><th>최근값</th><th>3개월 변화</th><th>z</th></tr>'+d.map(x=>'<tr><td>'+x.driver+'</td><td>'+x.last+'</td><td>'+x.chg_3m_pct+'%</td><td><span class="pill warn">'+x.z+'</span></td></tr>').join('')+'</table>':'<div class="muted">외부변수 급변 없음</div>');}
+async function propose(uid,h){$('#proposal').innerHTML='<div class="proposal"><span class="spinner"></span> 설명·제안 계산 중…</div>';const [e,p]=await Promise.all([j('/api/explain?unique_id='+encodeURIComponent(uid)+'&h='+h),j('/api/propose?unique_id='+encodeURIComponent(uid)+'&h='+h)]);const top=Object.entries(e.top_feature_contributions_t).slice(0,5).map(([k,v])=>k+' '+(v>0?'+':'')+fmt(v)).join(', ');
+ $('#proposal').innerHTML='<div class="proposal"><b>'+p.label+' · '+p.target_month+' (h='+p.h+')</b> <span class="pill">'+p.status+'</span><div style="margin:6px 0">AI 예측 <b>'+fmt(p.ai_forecast_t)+' t</b> (P10 '+fmt(p.p10_t)+' / P90 '+fmt(p.p90_t)+') · 영업 FCST '+fmt(p.sales_fcst_t)+' t · 백테스트 WAPE '+(p.ai_backtest_wape==null?'-':pct(p.ai_backtest_wape))+', bias '+(p.ai_backtest_bias==null?'-':pct(p.ai_backtest_bias))+' → AI 가중 '+p.weight_on_ai+' · <b>제안 '+fmt(p.proposed_t)+' t</b></div><div class="muted">근거(LightGBM 기여도, t): '+top+' · 최근 실적 '+e.recent_actuals_t.map(fmt).join(' → ')+(e.yoy_last_pct!=null?' · YoY '+e.yoy_last_pct+'%':'')+'</div><div class="row" style="margin-top:8px"><button class="primary sm" onclick="decide(\''+uid+'\','+h+',\'accept_proposed\','+p.proposed_t+')">제안 수락</button><button class="sm" onclick="decide(\''+uid+'\','+h+',\'accept_ai\','+p.ai_forecast_t+')">AI 예측 유지</button><input type="number" id="ovr" placeholder="직접 입력(t)"><button class="sm" onclick="decide(\''+uid+'\','+h+',\'override\',+document.getElementById(\'ovr\').value)">직접 입력 확정</button></div></div>';}
+async function decide(uid,h,decision,value){const r=await j('/api/decision',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({unique_id:uid,h:h,decision:decision,value_t:value,note:'UI 데모'})});$('#proposal').innerHTML+='<div class="muted" style="margin-top:6px">기록됨: '+r.recorded.unique_id+' h='+r.recorded.h+' '+r.recorded.decision+' '+fmt(r.recorded.value_t)+' t (누적 '+r.n_decisions_total+'건)</div>';}
+$('#runCycle').onclick=async()=>{const b=$('#runCycle');b.disabled=true;$('#transcript').innerHTML='<div class="muted"><span class="spinner"></span> 에이전트 실행 중…</div>';$('#final').innerHTML='<span class="muted">…</span>';try{const o=await j('/api/cycle',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({backend:$('#backend').value})});
+ $('#transcript').innerHTML=o.transcript.filter(t=>t.role==='tool').map((t,i)=>'<div class="step"><div class="n">'+(i+1)+'. '+t.name+'('+JSON.stringify(t.args)+') <span class="pill">'+t.sec+'s</span></div><pre>'+JSON.stringify(t.result,null,1).slice(0,900)+'</pre></div>').join('');$('#final').innerHTML=md(o.final)+'<div class="muted" style="margin-top:8px">backend '+o.backend+' · 도구 호출 '+o.n_tool_calls+'회 · '+o.elapsed_sec+'s</div>';}catch(e){$('#final').textContent='오류: '+e.message;}b.disabled=false;};
+$('#handoff').onclick=async()=>{const r=await j('/api/handoff',{method:'POST'});$('#decisions').innerHTML='확정 FCST 전달: '+r.file.split('/').pop()+' · '+r.n_rows+'행 · 플래너 조정 '+r.n_overridden+'건 · h=1 월드 총량 '+Object.entries(r.world_totals_t).map(([k,v])=>k+' '+fmt(v)+'t').join(', ');};
+$('#prodSel').onchange=renderFc;$('#hSel').onchange=renderFc;
+loadSummary().then(loadForecast).then(loadCompare).then(loadAnom).catch(e=>{$('#kpis').innerHTML='<div class="card">백테스트 산출물이 없습니다. 먼저 scripts/run_backtest.py 를 실행하세요. ('+e.message+')</div>';});
+</script></body></html>
