@@ -109,7 +109,7 @@ def build_front(summary: dict[str, Any], cycle: dict[str, Any] | None) -> None:
     # ---- page 1: 해결방안 요약
     s += [P("롯데케미칼 [화학] 첨단소재 수요예측 AI 기획 — 예선 해결방안 요약", st["title"]), Spacer(1, 1.5 * mm),
           P("LOTTE AX Challenge 2026 · 지원자 전건우 · 본 3쪽은 과제 전용 요약이며, 이어지는 포트폴리오와 부록(증빙)은 기존 자료입니다.", st["meta"]), Spacer(1, 4 * mm)]
-    s += [P("1. 문제 정의 — '주문 예측'이 아니라 'End Customer 수요 예측'", st["section"]), Spacer(1, 1.5 * mm)]
+    s += [P("1. 문제 정의 — 주문 예측이 아니라 End Customer 수요 예측", st["section"]), Spacer(1, 1.5 * mm)]
     s.append(labeled([
         ("현황", "첨단소재(ABS·PC)의 최종 수요처는 가전·TV·자동차·IT 완제품 제조사이지만 판매는 컴파운더·사출 협력사·유통사를 거치는 다단계 구조. 영업팀이 보는 것은 직접 고객의 PO이고, 최종 수요 변화는 1~2분기 늦게·증폭되어(bullwhip) 도착."),
         ("현행 한계", "① 담당자별 낙관·보수 편향이 측정되지 않음 ② grade×고객×지역 예측과 사업부 총량이 합산 불일치(one-number 부재) ③ 자동차 생산·가전 출하·역내 수입량·원료가·유가·환율 등 외부 선행 신호 미반영."),
@@ -117,22 +117,22 @@ def build_front(summary: dict[str, Any], cycle: dict[str, Any] | None) -> None:
     ], st))
     s += [Spacer(1, 4 * mm), P("2. 해결 방안 — 4개 층", st["section"]), Spacer(1, 1.5 * mm)]
     s.append(grid([["층", "구성", "핵심 설계"],
-                   ["데이터", "내부: 주문·출하·판가·재고·영업 FCST·고객 마스터(고객→최종산업·OEM 매핑)\n외부: 자동차 생산·생산지수·ABS/PC 수출입·중국 수입·원료가·유가·환율·이벤트", "월 단위 정렬, 공표 시차(publication lag) 강제 → '예측 시점에 알 수 있던 값'만 사용"],
+                   ["데이터", "내부: 주문·출하·판가·재고·영업 FCST·고객 마스터(고객→최종산업·OEM 매핑)\n외부: 자동차 생산·생산지수·ABS/PC 수출입·중국 수입·원료가·유가·환율·이벤트", "월 단위 정렬, 공표 시차(publication lag) 강제 → 예측 시점에 알 수 있던 값만 사용"],
                    ["예측 엔진", "계절 베이스라인 → LightGBM(외생변수, 직접 다중지평) → 시계열 파운데이션 모델(Chronos 제로샷) 앙상블", "롤링 백테스트 WAPE·bias로 계층별 모델 선택, MinT reconciliation으로 총량↔세부 합산 일치, P10/P90 예측 구간"],
-                   ["AI 에이전트", "ingest·forecast·backtest·compare_fcst·detect_anomaly·explain·propose·record_decision·handoff 9개 도구를 LLM이 호출", "숫자는 도구만 생성, LLM은 계획·해석·설명. 조정안은 플래너 승인 전까지 '제안' 상태(human-in-the-loop)"],
+                   ["AI 에이전트", "ingest·forecast·backtest·compare_fcst·detect_anomaly·explain·propose·record_decision·handoff 9개 도구를 LLM이 호출", "숫자는 도구만 생성, LLM은 계획·해석·설명. 조정안은 플래너 승인 전까지 제안 상태(human-in-the-loop)"],
                    ["운영", "S&OP 주기 월간 사이클, 정확도 KPI(WAPE·bias)와 재고 KPI 연결, 조정 이력·FVA 기록", "사람과 AI의 기여 분리 측정, 법인별 데이터 소스만 교체해 확산"]],
                   [18 * mm, 84 * mm, 84 * mm], st))
     s += [Spacer(1, 4 * mm), P("3. 기대 효과와 차별성", st["section"]), Spacer(1, 1.5 * mm)]
     s.append(labeled([
         ("기대 효과", "예측 오차 감소 → 안전재고·재고일수 감소, 긴급 생산변경·운송비 감소, 수요 전환기 판가 방어. 첨단소재 매출 약 5조원 기준 재고 회전 1일 단축 ≈ 운전자본 약 140억원(매출/365 단순 가정). 영업·생산·구매가 같은 숫자로 회의하는 one-number 체계, 해외 판매법인 확장."),
-        ("차별성", "① 모델이 아닌 '담당자가 매달 쓰는 워크플로우'로 설계하고 FVA로 효과를 증명 ② End Customer 신호를 고객 마스터 매핑과 전방 산업 지표로 명시적으로 모델에 투입 ③ 예선에서 이미 공개 데이터로 파이프라인·백테스트·에이전트를 실제 구현해 검증(다음 쪽) ④ 본선에서는 내부 데이터 스키마 연결만 추가하면 되는 구조."),
+        ("차별성", "① 모델을 만드는 데서 끝내지 않고 담당자가 매달 쓰는 워크플로우로 설계하고 FVA로 효과를 증명 ② End Customer 신호를 고객 마스터 매핑과 전방 산업 지표로 명시적으로 모델에 투입 ③ 예선에서 이미 공개 데이터로 파이프라인·백테스트·에이전트를 실제 구현해 검증(다음 쪽) ④ 본선에서는 내부 데이터 스키마 연결만 추가하면 되는 구조."),
     ], st))
     s += [Spacer(1, 4 * mm), P("4. 신뢰성·검증 설계", st["section"]), Spacer(1, 1.5 * mm)]
     s.append(grid([["항목", "설계"],
                    ["평가", "시간 순서를 지키는 롤링 오리진 백테스트. 지평별(1~6개월) WAPE·MASE·bias를 계층별로 보고하고, 베이스라인을 못 이기는 셀은 자동으로 베이스라인으로 회귀"],
                    ["누수 방지", "외부변수 공표 시차를 피처 생성 시점에 강제, 선택 창(12개월)과 보고 창(12개월) 분리로 모델 선택 편향 제거"],
                    ["불확실성", "P10/P90 예측 구간과 계층별 신뢰도 등급을 함께 제시해 담당자가 봐야 할 셀을 우선순위화"],
-                   ["LLM 안전장치", "LLM은 숫자를 만들지 않고 도구 결과만 인용(근거 도구명 첨부). 조정안은 승인 전까지 '제안' 상태, 승인·수정·반려 이력 기록"],
+                   ["LLM 안전장치", "LLM은 숫자를 만들지 않고 도구 결과만 인용(근거 도구명 첨부). 조정안은 승인 전까지 제안 상태, 승인·수정·반려 이력 기록"],
                    ["운영", "데이터 품질 게이트 실패 시 사이클 중단, 드리프트 감시·재학습 트리거, 직전 확정 FCST로 롤백, 고정 시드·버전으로 재현"]],
                   [26 * mm, 160 * mm], st))
     s.append(PageBreak())
@@ -165,7 +165,7 @@ def build_front(summary: dict[str, Any], cycle: dict[str, Any] | None) -> None:
     left, right = series_tbl[:half + 1], [series_tbl[0]] + series_tbl[half + 1:]
     w = [38 * mm, 16 * mm, 14 * mm, 11 * mm, 12 * mm]
     s.append(Table([[grid(left, w, st), grid(right, w, st)]], colWidths=[93 * mm, 93 * mm]))
-    s += [Spacer(1, 3 * mm), P("선택된 모델 분포: " + " · ".join(f"{k} {v}" for k, v in summary["best_model_counts"].items()) + ". 모든 코드·데이터 스크립트는 재현 가능하며(uv 가상환경, 고정 시드), 본선에서는 Comtrade 로더를 내부 출하 데이터 로더로 교체합니다.", st["small"])]
+    s += [Spacer(1, 3 * mm), P("선택된 모델 분포: " + " · ".join(f"{k} {v}" for k, v in summary["best_model_counts"].items()) + ". 모든 코드·데이터 스크립트는 공개 저장소 github.com/Momentum96/lotte-ax-demand-agent 에서 재현 가능하며(uv 가상환경, 고정 시드), 본선에서는 Comtrade 로더를 내부 출하 데이터 로더로 교체합니다.", st["small"])]
     s.append(PageBreak())
     # ---- page 3: 에이전트
     s += [P("AI 에이전트 프로토타입 — 월간 사이클을 도구 호출로 운영", st["title"]), Spacer(1, 1.5 * mm),
