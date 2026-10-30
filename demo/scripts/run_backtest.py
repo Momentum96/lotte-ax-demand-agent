@@ -78,8 +78,8 @@ def main() -> None:
     scale = mase_scale(long[long["ds"] <= origins[0]])
     rep = bt[bt["window"] == "report"]
     by_model = summarize(rep, scale, by=("model",))
-    by_h = summarize(rep[rep["model"].isin(["seasonal_naive", "selected", "ensemble"])], scale, by=("model", "h"))
-    by_series = summarize(rep[rep["model"].isin(["seasonal_naive", "selected"])], scale, by=("unique_id", "model"))
+    by_h = summarize(rep, scale, by=("model", "h"))
+    by_series = summarize(rep[rep["model"].isin(["seasonal_naive", "ensemble", "selected"])], scale, by=("unique_id", "model"))
     world = rep[rep["unique_id"].str.endswith("|WLD")]
     by_model_world = summarize(world, scale, by=("model",))
     summary = {
@@ -103,26 +103,32 @@ def main() -> None:
     plt.rcParams["font.family"] = ["AppleGothic", "Apple SD Gothic Neo", "DejaVu Sans"]
     plt.rcParams["axes.unicode_minus"] = False
     fig, ax = plt.subplots(figsize=(7, 3.6))
-    bm = by_model.sort_values("wape")
-    ax.barh(bm["model"], bm["wape"] * 100, color=["#EC1B23" if m == "selected" else "#9aa0a6" for m in bm["model"]])
+    # "selected" is the ensemble plus the per-series swap policy; it is plotted only when it differs from the ensemble
+    sel_differs = best.nunique() > 1 or best.iloc[0] != "ensemble"
+    bm = by_model[(by_model["model"] != "selected") | sel_differs].sort_values("wape")
+    ax.barh(bm["model"], bm["wape"] * 100, color=["#EC1B23" if m == "ensemble" else "#9aa0a6" for m in bm["model"]])
     for i, (m, w) in enumerate(zip(bm["model"], bm["wape"])):
         ax.text(w * 100 + 0.3, i, f"{w*100:.1f}%", va="center", fontsize=9)
     ax.set_xlabel("WAPE (%) on report window, h=1..6, all series"); ax.set_title("Backtest accuracy by model")
     ax.invert_yaxis(); fig.tight_layout(); fig.savefig(CH / "wape_by_model.png", dpi=160); plt.close(fig)
 
     fig, ax = plt.subplots(figsize=(7, 3.6))
-    for m, color in [("seasonal_naive", "#9aa0a6"), ("ensemble", "#5f6368"), ("selected", "#EC1B23")]:
+    styles = [("seasonal_naive", "#9aa0a6", "--", "o", 1.2), ("ets", "#80868b", "-", "s", 1.0), ("lgbm", "#80868b", "-", "^", 1.0),
+              ("chronos", "#80868b", "-", "D", 1.0), ("ensemble", "#EC1B23", "-", "o", 2.0)]
+    if sel_differs:
+        styles.append(("selected", "#202124", ":", "x", 1.4))
+    for m, color, ls, marker, lw in styles:
         s = by_h[by_h["model"] == m].sort_values("h")
-        ax.plot(s["h"], s["wape"] * 100, marker="o", label=m, color=color)
-    ax.set_xlabel("horizon (months ahead)"); ax.set_ylabel("WAPE (%)"); ax.set_title("Accuracy by horizon"); ax.legend()
+        ax.plot(s["h"], s["wape"] * 100, marker=marker, ls=ls, lw=lw, ms=4, label=m, color=color)
+    ax.set_xlabel("horizon (months ahead)"); ax.set_ylabel("WAPE (%)"); ax.set_title("Accuracy by horizon"); ax.legend(fontsize=8, ncol=2)
     fig.tight_layout(); fig.savefig(CH / "wape_by_horizon.png", dpi=160); plt.close(fig)
 
     for uid in panel.hierarchy:
         fig, ax = plt.subplots(figsize=(8, 3.6))
         hist = long[long["unique_id"] == uid].sort_values("ds")
         ax.plot(hist["ds"], hist["y"], color="#202124", lw=1.4, label="actual")
-        s1 = rep[(rep["unique_id"] == uid) & (rep["model"] == "selected") & (rep["h"] == 1)].sort_values("ds")
-        ax.plot(s1["ds"], s1["yhat"], color="#EC1B23", lw=1.4, label="selected, 1-month ahead")
+        s1 = rep[(rep["unique_id"] == uid) & (rep["model"] == "ensemble") & (rep["h"] == 1)].sort_values("ds")
+        ax.plot(s1["ds"], s1["yhat"], color="#EC1B23", lw=1.4, label="ensemble, 1-month ahead")
         n1 = rep[(rep["unique_id"] == uid) & (rep["model"] == "seasonal_naive") & (rep["h"] == 1)].sort_values("ds")
         ax.plot(n1["ds"], n1["yhat"], color="#9aa0a6", lw=1.0, ls="--", label="seasonal naive")
         ax.set_xlim(hist["ds"].max() - pd.DateOffset(months=60), hist["ds"].max() + pd.DateOffset(months=1))

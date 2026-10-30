@@ -157,12 +157,20 @@
   ],
   "report_by_h": [
     {
-      "model": "ensemble",
+      "model": "ets",
+      "h": 1,
+      "n": 192,
+      "wape": 0.1196,
+      "bias": 0.0284,
+      "mase": 0.7832
+    },
+    {
+      "model": "ets",
       "h": 2,
       "n": 176,
-      "wape": 0.1231,
-      "bias": 0.0432,
-      "mase": 0.8085
+      "wape": 0.1216,
+      "bias": 0.0347,
+      "mase": 0.8142
     },
     {
       "model": "selected",
@@ -174,11 +182,11 @@
     },
     {
       "model": "ensemble",
-      "h": 1,
-      "n": 192,
-      "wape": 0.1241,
-      "bias": 0.033,
-      "mase": 0.7958
+      "h": 2,
+      "n": 176,
+      "wape": 0.1231,
+      "bias": 0.0432,
+      "mase": 0.8085
     },
     {
       "model": "selected",
@@ -187,6 +195,46 @@
       "wape": 0.1241,
       "bias": 0.033,
       "mase": 0.7958
+    },
+    {
+      "model": "ensemble",
+      "h": 1,
+      "n": 192,
+      "wape": 0.1241,
+      "bias": 0.033,
+      "mase": 0.7958
+    },
+    {
+      "model": "chronos",
+      "h": 1,
+      "n": 192,
+      "wape": 0.1282,
+      "bias": 0.0349,
+      "mase": 0.8425
+    },
+    {
+      "model": "ets",
+      "h": 3,
+      "n": 160,
+      "wape": 0.1317,
+      "bias": 0.0613,
+      "mase": 0.8085
+    },
+    {
+      "model": "chronos",
+      "h": 2,
+      "n": 176,
+      "wape": 0.132,
+      "bias": 0.0503,
+      "mase": 0.8816
+    },
+    {
+      "model": "lgbm",
+      "h": 2,
+      "n": 176,
+      "wape": 0.1346,
+      "bias": 0.0447,
+      "mase": 0.8471
     },
     {
       "model": "ensemble",
@@ -205,6 +253,30 @@
       "mase": 0.8006
     },
     {
+      "model": "lgbm",
+      "h": 1,
+      "n": 192,
+      "wape": 0.1381,
+      "bias": 0.0358,
+      "mase": 0.8568
+    },
+    {
+      "model": "lgbm",
+      "h": 3,
+      "n": 160,
+      "wape": 0.1452,
+      "bias": 0.0989,
+      "mase": 0.8498
+    },
+    {
+      "model": "ets",
+      "h": 4,
+      "n": 144,
+      "wape": 0.146,
+      "bias": 0.0827,
+      "mase": 0.8691
+    },
+    {
       "model": "ensemble",
       "h": 4,
       "n": 144,
@@ -221,12 +293,20 @@
       "mase": 0.8495
     },
     {
-      "model": "ensemble",
-      "h": 5,
-      "n": 128,
-      "wape": 0.1567,
-      "bias": 0.1324,
-      "mase": 0.8594
+      "model": "chronos",
+      "h": 3,
+      "n": 160,
+      "wape": 0.1517,
+      "bias": 0.0818,
+      "mase": 0.9076
+    },
+    {
+      "model": "lgbm",
+      "h": 4,
+      "n": 144,
+      "wape": 0.1539,
+      "bias": 0.1115,
+      "mase": 0.8529
     },
     {
       "model": "selected",
@@ -235,6 +315,38 @@
       "wape": 0.1567,
       "bias": 0.1324,
       "mase": 0.8594
+    },
+    {
+      "model": "ensemble",
+      "h": 5,
+      "n": 128,
+      "wape": 0.1567,
+      "bias": 0.1324,
+      "mase": 0.8594
+    },
+    {
+      "model": "ets",
+      "h": 5,
+      "n": 128,
+      "wape": 0.1578,
+      "bias": 0.1183,
+      "mase": 0.9364
+    },
+    {
+      "model": "chronos",
+      "h": 5,
+      "n": 128,
+      "wape": 0.1613,
+      "bias": 0.1359,
+      "mase": 0.8714
+    },
+    {
+      "model": "chronos",
+      "h": 4,
+      "n": 144,
+      "wape": 0.1617,
+      "bias": 0.1018,
+      "mase": 0.941
     },
     {
       "model": "seasonal_naive",
@@ -261,12 +373,36 @@
       "mase": 0.988
     },
     {
+      "model": "lgbm",
+      "h": 5,
+      "n": 128,
+      "wape": 0.1683,
+      "bias": 0.1432,
+      "mase": 0.9212
+    },
+    {
       "model": "seasonal_naive",
       "h": 4,
       "n": 144,
       "wape": 0.1727,
       "bias": 0.1233,
       "mase": 1.0048
+    },
+    {
+      "model": "ets",
+      "h": 6,
+      "n": 112,
+      "wape": 0.1754,
+      "bias": 0.1299,
+      "mase": 0.9808
+    },
+    {
+      "model": "chronos",
+      "h": 6,
+      "n": 112,
+      "wape": 0.178,
+      "bias": 0.1443,
+      "mase": 0.9442
     },
     {
       "model": "ensemble",
@@ -299,6 +435,14 @@
       "wape": 0.1915,
       "bias": 0.1444,
       "mase": 1.0497
+    },
+    {
+      "model": "lgbm",
+      "h": 6,
+      "n": 112,
+      "wape": 0.2029,
+      "bias": 0.1666,
+      "mase": 1.0488
     }
   ],
   "report_by_series": [
@@ -311,8 +455,24 @@
       "mase": 0.2759
     },
     {
+      "unique_id": "PC|CHN",
+      "model": "ensemble",
+      "n": 57,
+      "wape": 0.0817,
+      "bias": 0.0076,
+      "mase": 0.2759
+    },
+    {
       "unique_id": "ABS|VNM",
       "model": "selected",
+      "n": 57,
+      "wape": 0.0898,
+      "bias": 0.0174,
+      "mase": 0.5643
+    },
+    {
+      "unique_id": "ABS|VNM",
+      "model": "ensemble",
       "n": 57,
       "wape": 0.0898,
       "bias": 0.0174,
@@ -328,6 +488,14 @@
     },
     {
       "unique_id": "ABS|OTH",
+      "model": "ensemble",
+      "n": 57,
+      "wape": 0.1145,
+      "bias": 0.0739,
+      "mase": 0.7505
+    },
+    {
+      "unique_id": "ABS|OTH",
       "model": "selected",
       "n": 57,
       "wape": 0.1145,
@@ -337,6 +505,14 @@
     {
       "unique_id": "ABS|WLD",
       "model": "selected",
+      "n": 57,
+      "wape": 0.1185,
+      "bias": 0.075,
+      "mase": 0.8494
+    },
+    {
+      "unique_id": "ABS|WLD",
+      "model": "ensemble",
       "n": 57,
       "wape": 0.1185,
       "bias": 0.075,
@@ -360,6 +536,14 @@
     },
     {
       "unique_id": "ABS|TUR",
+      "model": "ensemble",
+      "n": 57,
+      "wape": 0.1281,
+      "bias": -0.0029,
+      "mase": 0.5294
+    },
+    {
+      "unique_id": "ABS|TUR",
       "model": "selected",
       "n": 57,
       "wape": 0.1281,
@@ -373,6 +557,14 @@
       "wape": 0.1317,
       "bias": 0.0957,
       "mase": 0.9434
+    },
+    {
+      "unique_id": "PC|WLD",
+      "model": "ensemble",
+      "n": 57,
+      "wape": 0.1334,
+      "bias": 0.0896,
+      "mase": 1.1321
     },
     {
       "unique_id": "PC|WLD",
@@ -399,12 +591,36 @@
       "mase": 0.8689
     },
     {
+      "unique_id": "ABS|MEX",
+      "model": "ensemble",
+      "n": 57,
+      "wape": 0.1463,
+      "bias": -0.0563,
+      "mase": 0.8689
+    },
+    {
       "unique_id": "PC|IND",
       "model": "selected",
       "n": 57,
       "wape": 0.1506,
       "bias": 0.0539,
       "mase": 0.808
+    },
+    {
+      "unique_id": "PC|IND",
+      "model": "ensemble",
+      "n": 57,
+      "wape": 0.1506,
+      "bias": 0.0539,
+      "mase": 0.808
+    },
+    {
+      "unique_id": "ABS|CHN",
+      "model": "ensemble",
+      "n": 57,
+      "wape": 0.1524,
+      "bias": 0.1323,
+      "mase": 0.3581
     },
     {
       "unique_id": "ABS|CHN",
@@ -431,6 +647,14 @@
       "mase": 0.8169
     },
     {
+      "unique_id": "ABS|USA",
+      "model": "ensemble",
+      "n": 57,
+      "wape": 0.1596,
+      "bias": 0.0867,
+      "mase": 0.8169
+    },
+    {
       "unique_id": "PC|WLD",
       "model": "seasonal_naive",
       "n": 57,
@@ -445,6 +669,14 @@
       "wape": 0.1901,
       "bias": 0.0131,
       "mase": 1.0197
+    },
+    {
+      "unique_id": "PC|VNM",
+      "model": "ensemble",
+      "n": 57,
+      "wape": 0.2078,
+      "bias": 0.1168,
+      "mase": 0.6955
     },
     {
       "unique_id": "PC|VNM",
@@ -471,6 +703,14 @@
       "mase": 0.9134
     },
     {
+      "unique_id": "PC|USA",
+      "model": "ensemble",
+      "n": 57,
+      "wape": 0.2287,
+      "bias": 0.1409,
+      "mase": 0.9134
+    },
+    {
       "unique_id": "ABS|MEX",
       "model": "seasonal_naive",
       "n": 57,
@@ -481,6 +721,14 @@
     {
       "unique_id": "PC|OTH",
       "model": "selected",
+      "n": 57,
+      "wape": 0.2458,
+      "bias": 0.1211,
+      "mase": 1.4932
+    },
+    {
+      "unique_id": "PC|OTH",
+      "model": "ensemble",
       "n": 57,
       "wape": 0.2458,
       "bias": 0.1211,
@@ -505,6 +753,14 @@
     {
       "unique_id": "PC|ITA",
       "model": "selected",
+      "n": 57,
+      "wape": 0.2777,
+      "bias": 0.1322,
+      "mase": 1.2767
+    },
+    {
+      "unique_id": "PC|ITA",
+      "model": "ensemble",
       "n": 57,
       "wape": 0.2777,
       "bias": 0.1322,
@@ -543,6 +799,22 @@
       "mase": 0.7877
     },
     {
+      "unique_id": "PC|MEX",
+      "model": "ensemble",
+      "n": 57,
+      "wape": 0.3301,
+      "bias": 0.3184,
+      "mase": 0.7877
+    },
+    {
+      "unique_id": "ABS|IND",
+      "model": "ensemble",
+      "n": 57,
+      "wape": 0.342,
+      "bias": 0.2647,
+      "mase": 1.2264
+    },
+    {
       "unique_id": "ABS|IND",
       "model": "selected",
       "n": 57,
@@ -559,5 +831,5 @@
       "mase": 1.0199
     }
   ],
-  "runtime_sec": 0.5
+  "runtime_sec": 0.6
 }
