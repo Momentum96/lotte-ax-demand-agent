@@ -40,7 +40,7 @@ def _save(transcript: list[dict[str, Any]], ws: Workspace, origin: str, backend:
 
 
 def run_cycle(ws: Workspace, backend: str = "auto", origin: str | None = None, planner_input: str | None = None,
-              max_steps: int = 24, verbose: bool = True) -> dict[str, Any]:
+              max_steps: int = 24, verbose: bool = True, decisions: list[dict[str, Any]] | None = None) -> dict[str, Any]:
     if backend == "auto":
         backend = "openai" if os.getenv("OPENAI_API_KEY") else "anthropic" if os.getenv("ANTHROPIC_API_KEY") else "scripted"
     origin_label = (origin or str(ws.panel.long["ds"].max().date()))[:7]
@@ -50,7 +50,7 @@ def run_cycle(ws: Workspace, backend: str = "auto", origin: str | None = None, p
     transcript: list[dict[str, Any]] = [{"role": "system", "content": SYSTEM_PROMPT}, {"role": "user", "content": user_msg}]
     t0 = time.time()
     if backend == "scripted":
-        final = _scripted(ws, origin, transcript, verbose)
+        final = _scripted(ws, origin, transcript, verbose, decisions)
     elif backend == "openai":
         final = _openai_loop(ws, transcript, max_steps, verbose)
     elif backend == "anthropic":
@@ -123,7 +123,7 @@ def _anthropic_loop(ws, transcript, max_steps, verbose):
     return "(max steps reached)"
 
 
-def _scripted(ws, origin, transcript, verbose):
+def _scripted(ws, origin, transcript, verbose, decisions=None):
     args = {"origin": origin} if origin else {}
     ing = _call_tool(ws, "ingest", args, transcript, verbose)
     fc = _call_tool(ws, "forecast", args, transcript, verbose)
@@ -157,6 +157,16 @@ def _scripted(ws, origin, transcript, verbose):
     lines += ["", "**(5) 플래너 결정 필요 항목**:"]
     for p in proposals:
         lines.append(f"- [ ] {p['unique_id']} h={p['h']}: 제안 {p['proposed_t']:,.0f} t 수락 / AI {p['ai_forecast_t']:,.0f} t 유지 / 직접 입력")
+    if decisions:  # explicit planner decisions were given: record them and hand off (system prompt rule 3)
+        lines += ["", "**플래너 결정 반영** (record_decision → handoff):"]
+        for d in decisions:
+            rec = _call_tool(ws, "record_decision", {**d, **args}, transcript, verbose)
+            lines.append(f"- {d['unique_id']} h={d['h']}: {d['decision']}" + (f" → 오류: {rec['error']}" if "error" in rec else ""))
+        ho = _call_tool(ws, "handoff", args, transcript, verbose)
+        if "error" in ho:
+            lines.append(f"- handoff 오류: {ho['error']}")
+        else:
+            lines.append(f"- 확정 FCST {ho['file']}: 결정 반영 {ho['n_overridden']}셀, 합산 일치용 재조정 {ho['n_reconciled']}셀")
     final = "\n".join(lines)
     transcript.append({"role": "assistant", "content": final})
     return final

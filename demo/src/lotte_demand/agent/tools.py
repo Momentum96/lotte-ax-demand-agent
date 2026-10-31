@@ -212,6 +212,10 @@ class Workspace:
     # ---------- tool 8: record decision ----------
     def record_decision(self, unique_id: str, h: int, decision: str, value_t: float | None = None,
                         note: str = "", origin: str | None = None, actor: str = "planner") -> dict:
+        if decision not in ("accept_ai", "accept_proposed", "override"):
+            raise ValueError(f"decision must be accept_ai | accept_proposed | override, got {decision!r}")
+        if decision == "override" and value_t is None:
+            raise ValueError("override requires value_t")
         origin_ts = pd.Timestamp(origin) if origin else self.panel.long["ds"].max()
         path = self.artifacts / "decisions.jsonl"
         rec = {"ts": pd.Timestamp.now().isoformat(timespec="seconds"), "origin": _ts(origin_ts), "unique_id": unique_id,
@@ -228,23 +232,51 @@ class Workspace:
         fc["confirmed_t"] = fc["yhat"]
         fc["source"] = "ai"
         path = self.artifacts / "decisions.jsonl"
+        changed: set[tuple[str, int]] = set()  # cells whose confirmed value differs from the AI value
         if path.exists():
             for line in path.read_text().splitlines():
                 d = json.loads(line)
                 if d["origin"] != _ts(origin_ts):
                     continue
-                idx = (fc["unique_id"] == d["unique_id"]) & (fc["h"] == d["h"])
-                if d["decision"] in ("accept_proposed", "override") and d.get("value_t") is not None:
-                    fc.loc[idx, "confirmed_t"] = float(d["value_t"])
+                key = (d["unique_id"], int(d["h"]))
+                idx = (fc["unique_id"] == key[0]) & (fc["h"] == key[1])
+                value = d.get("value_t")
+                if d["decision"] == "accept_proposed" and value is None:
+                    # accepting a proposal without a value means "take the tool's proposal"
+                    value = self.propose_adjustment(key[0], key[1], origin)["proposed_t"]
+                if d["decision"] in ("accept_proposed", "override") and value is not None:
+                    fc.loc[idx, "confirmed_t"] = float(value)
                     fc.loc[idx, "source"] = d["decision"]
+                    changed.add(key)
                 elif d["decision"] == "accept_ai":
-                    fc.loc[idx, "source"] = "accept_ai"
+                    fc.loc[idx, ["confirmed_t", "source"]] = [fc.loc[idx, "yhat"].iloc[0], "accept_ai"]
+                    changed.discard(key)
+        # Keep the confirmed FCST coherent (children sum to the parent), like the reconciled AI forecast:
+        # changed children re-aggregate the parent; a parent changed alone is split across its children pro rata.
+        conflicts = []
+        for parent, kids in self.panel.hierarchy.items():
+            for h in HORIZONS:
+                pidx = (fc["unique_id"] == parent) & (fc["h"] == h)
+                kidx = fc["unique_id"].isin(kids) & (fc["h"] == h)
+                kids_changed = any((k, h) in changed for k in kids)
+                if kids_changed:
+                    if (parent, h) in changed:
+                        conflicts.append({"unique_id": parent, "h": h, "resolution": "children decisions win; parent re-aggregated"})
+                    fc.loc[pidx, "confirmed_t"] = fc.loc[kidx, "confirmed_t"].sum()
+                    fc.loc[pidx, "source"] = "reconciled_bottom_up"
+                elif (parent, h) in changed:
+                    total = fc.loc[kidx, "confirmed_t"].sum()
+                    if total > 0:
+                        fc.loc[kidx, "confirmed_t"] *= float(fc.loc[pidx, "confirmed_t"].iloc[0]) / total
+                        fc.loc[kidx, "source"] = "reconciled_top_down"
         out = fc[["unique_id", "h", "ds", "yhat", "q10", "q90", "confirmed_t", "source"]].rename(columns={"ds": "target_month"})
         out["target_month"] = out["target_month"].dt.strftime("%Y-%m")
         csv_path = self.artifacts / f"confirmed_fcst_{_ts(origin_ts)}.csv"
         out.to_csv(csv_path, index=False)
         return {"origin": _ts(origin_ts), "file": str(csv_path), "n_rows": int(len(out)),
-                "n_overridden": int((out["source"] != "ai").sum()),
+                "n_overridden": int(out["source"].isin(["accept_proposed", "override"]).sum()),
+                "n_reconciled": int(out["source"].str.startswith("reconciled").sum()),
+                "conflicts": conflicts,
                 "world_totals_t": {u: round(float(out[(out["unique_id"] == u) & (out["h"] == 1)]["confirmed_t"].iloc[0]), 1)
                                    for u in self.panel.hierarchy}}
 

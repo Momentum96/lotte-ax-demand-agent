@@ -21,14 +21,15 @@ def main() -> None:
     ap.add_argument("--decisions", default=None, help="planner decisions, e.g. 'ABS|CHN:1:accept_proposed;PC|WLD:2:override:5000'")
     a = ap.parse_args()
     ws = Workspace.load(ROOT / "artifacts")
-    planner = None
+    planner, decisions = None, None
     if a.decisions:
-        items = []
+        items, decisions = [], []
         for part in a.decisions.split(";"):
             f = part.split(":")
             items.append(f"{f[0]} h={f[1]} -> {f[2]}" + (f" value_t={f[3]}" if len(f) > 3 else ""))
+            decisions.append({"unique_id": f[0], "h": int(f[1]), "decision": f[2], "value_t": float(f[3]) if len(f) > 3 else None})
         planner = "; ".join(items)
-    out = run_cycle(ws, backend=a.backend, origin=a.origin, planner_input=planner)
+    out = run_cycle(ws, backend=a.backend, origin=a.origin, planner_input=planner, decisions=decisions)
     print("\n" + "=" * 80)
     print(out["final"])
     print("=" * 80)
